@@ -1,0 +1,142 @@
+/* Fonts */
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/manrope/manrope-light.woff2') format('woff2'),
+    url('./fonts/manrope/manrope-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/manrope/manrope-regular.woff2') format('woff2'),
+    url('./fonts/manrope/manrope-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/manrope/manrope-medium.woff2') format('woff2'),
+    url('./fonts/manrope/manrope-light.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/manrope/manrope-semi-bold.woff2') format('woff2'),
+    url('./fonts/manrope/manrope-semi-bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/manrope/manrope-bold.woff2') format('woff2'),
+    url('./fonts/manrope/manrope-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Manrope';
+  src: url('./fonts/manrope/manrope-extra-bold.woff2') format('woff2'),
+    url('./fonts/manrope/manrope-extra-bold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto/roboto-light.woff2') format('woff2'),
+    url('./fonts/roboto/roboto-light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto/roboto-regular.woff2') format('woff2'),
+    url('./fonts/roboto/roboto-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/roboto/roboto-bold.woff2') format('woff2'),
+    url('./fonts/roboto/roboto-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/inter-regular.woff2') format('woff2'),
+    url('./fonts/inter/inter-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('./fonts/inter/inter-bold.woff2') format('woff2'),
+    url('./fonts/inter/inter-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url('./fonts/dm-sans/dm-sans-bold.woff2') format('woff2'),
+    url('./fonts/dm-sans/dm-sans-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Machina';
+  src: url('./fonts/neue-machina/neue-machina-ultra-bold.woff2') format('woff2'),
+    url('./fonts/neue-machina/neue-machina-ultra-bold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* End Fonts */
+
+/* General */
+:root {
+  --accent-color:#DA2F3E;
+  --main-text-color: #212121;
+  --light-text-color: #C9D2D8;
+  --header-bg-color: #BFBFBF;
+  --footer-bg-color: #27282B;
+  --footer-text-color: #BFBFBF;
+
+  /* Screen sizes */
+  --xxs: 320px;
+  --xs: 575px;
+  --sm: 767px;
+  --md: 991px;
+  --lg: 1199px;
+  --xl: 1440px;
+}
+
+h1 {
+  font-family: 'Neue Machina';
+  font-weight: 900;
+}
+/* End General */
