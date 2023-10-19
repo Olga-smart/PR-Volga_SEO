@@ -135,8 +135,40 @@
   --xl: 1440px;
 }
 
-h1 {
-  font-family: 'Neue Machina';
-  font-weight: 900;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Manrope', 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--main-text-color);
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-width: 300px;
+  max-width: 1675px;
+  padding-left: 65px;
+  padding-right: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  width: 0;
+  height: 0;
 }
 /* End General */
