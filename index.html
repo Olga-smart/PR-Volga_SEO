@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,36 @@
   <title>Document</title>
 </head>
 <body>
-  <header>
-    <h1>продвижение сайтов</h1>
+  <header class="header js-header">
+    <div class="header__container">
+      <button class="header__burger js-header__burger">
+        <span class="visually-hidden">Меню</span>
+      </button>
+      <div class="header__logo">
+        <a href="/" class="logo">
+          <img src="./img/logo.svg" alt="Логотип PR-Volga" class="logo__img" width="140.31" height="41.79">
+          <span class="visually-hidden">На главную</span>
+        </a>
+      </div>
+      <a href="#" class="header__city">Санкт-Петербург</a>
+      <nav class="header__menu js-header__menu">
+        <a href="#" class="header__menu-item">Услуги</a>
+        <a href="#" class="header__menu-item">Готовые решения</a>
+        <a href="#" class="header__menu-item">Кейсы</a>
+        <a href="#" class="header__menu-item">Партнёрам</a>
+        <a href="#" class="header__menu-item">Помощь</a>
+        <a href="#" class="header__menu-item">Контакты</a>
+      </nav>
+      <a href="#" class="header__cart">
+        <img src="./img/cart.svg" alt="Корзина" width="32" height="31" class="img-responsive">
+      </a>
+      <a href="#" class="header__sign-in">
+        <img src="./img/sign-in.svg" alt="Личный кабинет" width="23" height="23" class="img-responsive">
+      </a>
+      <a href="tel:+78002502188" class="button header__phone">
+        <span class="header__phone-number">+7 800 250 21 88</span>
+      </a>
+    </div>
   </header>
   <footer></footer>
   <script src="./main.js"></script>
