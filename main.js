@@ -24,3 +24,11 @@ const header = document.querySelector('.js-header');
 if (header) {
   new Header(header);
 }
+
+window.addEventListener('scroll', () => {
+  if (this.scrollY > 50) {
+    document.querySelector('.js-header').classList.add('header_opaque')
+  } else {
+    document.querySelector('.js-header').classList.remove('header_opaque')
+  }
+})

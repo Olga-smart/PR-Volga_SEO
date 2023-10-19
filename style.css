@@ -144,6 +144,7 @@ html {
   line-height: 1.6;
   color: var(--main-text-color);
   height: 100%;
+  scroll-behavior: smooth;
 }
 body {
   min-height: 100%;
@@ -269,6 +270,13 @@ body {
   padding-bottom: 1.5rem;
   position: fixed;
   width: 100%;
+  z-index: 1;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.header_opaque {
+  background-color: #fff;
 }
 .header__container {
   min-width: 300px;
