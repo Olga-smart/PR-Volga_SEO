@@ -38,6 +38,45 @@
       </a>
     </div>
   </header>
+
+  <section class="main-screen">
+    <div class="container main-screen__container">
+      <div class="main-screen__promo">
+        <h1 class="main-screen__h1">
+          <img src="./img/SEO.svg" alt="SEO" width="390" height="146" class="main-screen__h1-img">
+          <span class="visually-hidden">SEO</span>продвижение сайтов
+        </h1>
+        <ul class="main-screen__list">
+          <li class="main-screen__list-item">Минимум на 50% увеличим посещаемость</li>
+          <li class="main-screen__list-item">На 30% возрастет количество заявок</li>
+          <li class="main-screen__list-item">Честно выводим сайты на первые три строчки Яндекса и Google</li>
+        </ul>
+        <span class="main-screen__call-to-action">Запишитесь<br> на встречу с экспертом</span>
+      </div>
+      <form action="" method="post" class="main-screen__form">
+        <p class="main-screen__form-heading">Напишите нам и мы соберем запросы для вашего бизнеса 
+          и определим позиции</p>
+          <div class="main-screen__form-input-group">
+            <label for="main-screen__phone" class="visually-hidden">Введите свой номер телефона:</label>
+            <input type="tel" id="main-screen__phone" class="main-screen__form-input main-screen__form-input-phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7 (___) ___-__-__" required />
+            <label for="main-screen__site" class="visually-hidden">Введите адрес своего сайта:</label>
+            <input type="url" id="main-screen__site" class="main-screen__form-input main-screen__form-input-site" name="site" placeholder="Адрес сайта" required />
+            <label class="checkbox main-screen__form-agreement">
+              <input type="checkbox" class="checkbox__field" checked />
+              Я соглашаюсь с Политикой конфиденциальности
+            </label>
+          </div>
+          <button type="submit" class="button main-screen__form-button">Записаться</button>
+      </form>
+    </div>
+    <div class="main-screen__accreditation">
+      <div class="container main-screen__accreditation-container">
+        <img src="./img/ministry-of-digital-dev.svg" alt="Минцифры России" width="235" height="51" class="main-screen__accreditation-logo">
+        <span>АККРЕДИТОВАННАЯ IT КОМПАНИЯ ОТ МИНЦИФРЫ</span>
+      </div>
+    </div>
+  </section>
+
   <footer></footer>
   <script src="./main.js"></script>
 </body>
