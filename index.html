@@ -536,6 +536,27 @@
     </div>
   </section>
 
+  <section class="request">
+    <div class="container request__container">
+      <div class="request__img" style="background-image: url(./img/request-img.jpg);"></div>
+      <form action="" method="post" class="request__form">
+        <h2 class="request__heading">Сайт в <span class="request__top-word">ТОПе</span><br> или возврат денег</h2>
+        <p class="request__note">Оставьте заявку, после чего мы сможем собрать ключевые запросы, проверить позиции по ним, составить план продвижения и сделать вам предложение по оптимизации сайта.</p>
+        <div class="request__input-group">
+          <label for="request__phone" class="visually-hidden">Введите свой номер телефона:</label>
+          <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7 (___) ___-__-__" required>
+          <label for="mrequest__site" class="visually-hidden">Введите адрес своего сайта:</label>
+          <input type="url" id="request__site" class="input input_with-icon input_site request__input" name="site" placeholder="Адрес сайта" required>
+          <label class="checkbox request__agreement">
+            <input type="checkbox" class="checkbox__field" checked>
+            Я соглашаюсь с Политикой конфиденциальности
+          </label>
+        </div>
+        <button type="submit" class="button request__button">Записаться</button>
+      </form>
+    </div>
+  </section>
+
   <footer></footer>
   <script src="./libs/glide/glide.min.js"></script>
   <script src="./main.js"></script>
