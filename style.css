@@ -2122,3 +2122,65 @@ a {
   }
 }
 /* End Media FAQ Section */
+
+/* Text Section */
+.text__wrapper {
+  border: 1px solid var(--accent-color);
+  border-bottom: none;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding-top: 5.7rem;
+  padding-bottom: 8.75rem;
+}
+.text__container {
+  width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  font-size: .8rem;
+}
+.text h1,
+.text h2,
+.text h3,
+.text h4,
+.text h5,
+.text h6 {
+  font-family: 'Neue Machina', monospace;
+  font-weight: 900;
+}
+.text h1 {
+  font-size: 2.5rem;
+}
+.text h2 {
+  font-size: 2rem;  
+  margin-top: 1.3rem;
+  margin-bottom: 1.3rem;
+}
+.text h3 {
+  font-size: 1.8rem;
+}
+.text h4 {
+  font-size: 1.6rem;
+}
+.text h5 {
+  font-size: 1.4rem;
+}
+.text h6 {
+  font-size: 1.2rem;
+}
+/* End Text Section */
+
+/* Media Text Section */
+@media (max-width: 767px) {
+  .text__wrapper {
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+  }
+  .text__container {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+/* End Media Text Section */
