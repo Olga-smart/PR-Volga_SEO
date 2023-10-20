@@ -906,7 +906,7 @@ a {
 }
 /* End Cases Section */
 
-/* Media Cases */
+/* Media Cases Section*/
 @media (max-width: 1440px) {
   .cases__slider {
     grid-template-columns: 2.5rem 1fr 2.5rem;
@@ -934,4 +934,81 @@ a {
     margin-bottom: 2rem;
   }
 }
-/* End Media Cases */
+/* End Media Cases Section */
+
+/* Deadlines Section */
+.deadlines {
+  background-color: #f6f6f6;
+  padding-bottom: 6.5rem;
+}
+.deadlines__heading {
+  font-family: 'Neue Machina', monospace;
+  font-weight: 900;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.75rem; 
+}
+.deadlines__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+.deadlines__item {
+  padding-top: 10.25rem;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 50%;
+  width: 100%;
+  text-align: center;
+}
+.deadlines__item-heading {
+  font-family: 'Neue Machina', monospace;
+  font-weight: 900;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.deadlines__item-text {
+  font-size: .8rem;
+  line-height: 1.4;
+}
+/* End Deadlines Section */
+
+/* Media Deadlines Section */
+@media (max-width: 1440px) {
+  .deadlines__item {
+    padding-top: 8rem;
+  }
+}
+@media (max-width: 1199px) {
+  .deadlines__item {
+    padding-top: 7rem;
+  }
+}
+@media (max-width: 767px) {
+  .deadlines__list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .deadlines__item {
+    padding-top: 10rem;
+  }
+}
+@media (max-width: 575px) {
+  .deadlines__list {
+    grid-template-columns: 1fr;
+    justify-items: center;       
+  }
+  .deadlines__item {
+    width: 50%;
+    padding-top: 8rem;
+  }
+}
+@media (max-width: 400px) {
+  .deadlines__item {
+    width: 70%;
+  }
+} 
+/* End Media Deadlines Section */
