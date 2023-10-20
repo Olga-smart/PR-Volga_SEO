@@ -32,3 +32,29 @@ window.addEventListener('scroll', () => {
     document.querySelector('.js-header').classList.remove('header_opaque')
   }
 })
+
+new Glide('.glide', {
+  type: 'slider',
+  perView: 4,
+  gap: 40,
+  rewind: false,
+  breakpoints: {
+    1440: {
+      gap: 30,
+    },
+    1199: {
+      gap: 20,
+      perView: 3,
+    },
+    991: {
+      gap: 10,
+      perView: 3,
+    },
+    767: {
+      perView: 2,
+    },
+    575: {
+      perView: 1,
+    }
+  }
+}).mount();
