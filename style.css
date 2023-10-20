@@ -1494,3 +1494,107 @@ a {
   }
 }
 /* End Media Price Section */
+
+/* Tasks Section */
+.tasks {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+
+}
+.tasks__heading {
+  font-family: 'Neue Machina', monospace;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.3;
+  margin-top: 0;
+  margin-bottom: 3.25rem;
+  text-align: center;
+}
+.tasks__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  -webkit-column-gap: 2rem;
+     -moz-column-gap: 2rem;
+          column-gap: 2rem;
+  row-gap: 3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tasks__item {
+  border-top: 1px solid #000;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.tasks__item_accent {
+  border-radius: 1rem;
+  border-top: none;
+  background-color: #FFEFEA;
+  padding: 2rem;
+  padding-top: 15rem;
+  background-repeat: no-repeat;
+  background-size: 65%;
+  background-position: top 2rem center;
+  grid-row: span 2;
+}
+.tasks__item-heading {
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.3;
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-column-gap: .5rem;
+     -moz-column-gap: .5rem;
+          column-gap: .5rem;        
+}
+.tasks__item-number {
+  color: #D0B6B6;
+  font-family: 'Manrope', 'Arial', sans-serif;
+}
+.tasks__item-text {
+  font-weight: 500;
+  line-height: 1.3;
+}
+.tasks__button-wrapper {
+  -ms-flex-item-align: end;
+      align-self: end;
+}
+.tasks__button {
+  padding: 1.2rem 1.8rem;
+  border-radius: 2rem;
+  font-family: 'Manrope', 'Arial', sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1;
+  width: 100%;
+}
+/* End Tasks Section */
+
+/* Media Tasks Section */
+@media (max-width: 991px) {
+  .tasks__item_accent {
+    padding: 1rem;
+    padding-top: 15rem;
+    background-size: 65%;
+  }
+}
+@media (max-width: 767px) {
+  .tasks__list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 575px) {
+  .tasks__list {
+    grid-template-columns: 1fr;
+  }
+  .tasks__item_accent {
+    padding-top: 12rem;
+    background-size: 30%;
+  }
+}
+/* End Media Tasks Section */
