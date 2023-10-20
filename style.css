@@ -529,7 +529,7 @@ a {
   padding-top: 7.9rem;
   padding-bottom: 2rem;                  
 }
-@-webkit-keyframes main-screen-bg-animation {
+/* @-webkit-keyframes main-screen-bg-animation {
   0% {
     background-image: url(./img/main-screen-bg-1.svg);
   }
@@ -550,7 +550,7 @@ a {
   100% {
     background-image: url(./img/main-screen-bg-3.svg);
   }
-}
+} */
 .main-screen__container {
   display: -webkit-box;
   display: -ms-flexbox;

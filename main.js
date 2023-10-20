@@ -1,3 +1,5 @@
+"use strict";
+
 class Header {
   constructor(component) {
     this._initFields(component);
