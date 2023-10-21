@@ -62,10 +62,10 @@
             <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
             <label for="main-screen__site" class="visually-hidden">Введите адрес своего сайта:</label>
             <input type="url" id="main-screen__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
-            <label class="checkbox main-screen__form-agreement">
-              <input type="checkbox" class="checkbox__field" checked>
-              Я соглашаюсь с Политикой конфиденциальности
-            </label>
+            <div class="checkbox">
+              <input type="checkbox" id="main-screen__agreement" class="checkbox__input" checked>
+              <label for="main-screen__agreement" class="checkbox__label main-screen__form-agreement">Я соглашаюсь с Политикой конфиденциальности</label>
+            </div>
           </div>
           <button type="submit" class="button main-screen__form-button">Записаться</button>
       </form>
@@ -245,14 +245,14 @@
           <div class="calculator__right">
             <p class="calculator__question">К какому типу относится ваш сайт?</p>
             <div class="calculator__step-1-radio-container">
-              <label class="calculator__radio">
-                <input type="radio" name="site-type" value="shop" class="calculator__radio-input" checked>
-                Интернет-магазин
-              </label>          
-              <label class="calculator__radio">
-                <input type="radio" name="site-type" value="site" class="calculator__radio-input">
-                Корпоративный или многостраничный сайт
-              </label>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-1-radio-1" name="site-type" value="shop" class="calculator__radio-input" checked>
+                <label for="calculator__step-1-radio-1" class="calculator__radio-label">Интернет-магазин</label>
+              </div>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-1-radio-2" name="site-type" value="site" class="calculator__radio-input">
+                <label for="calculator__step-1-radio-2" class="calculator__radio-label">Корпоративный или многостраничный сайт</label>
+              </div>              
             </div>
             <div class="calculator__bottom">
               <div class="calculator__indicator">
@@ -274,30 +274,30 @@
           <div class="calculator__right">
             <p class="calculator__question">Чего вы ждёте от продвижения сайта?</p>
             <div class="calculator__step-2-radio-container">
-              <label class="calculator__radio">
-                <input type="radio" name="expectation" value="expectation-1" class="calculator__radio-input" checked>
-                Гарантированный выход в ТОП-10 по выбранным запросам
-              </label>
-              <label class="calculator__radio">
-                <input type="radio" name="expectation" value="expectation-2" class="calculator__radio-input">
-                Выход в ТОП-10 по максимальному списку запросов
-              </label>
-              <label class="calculator__radio">
-                <input type="radio" name="expectation" value="expectation-3" class="calculator__radio-input">
-                Нужна консультация
-              </label>
-              <label class="calculator__radio">
-                <input type="radio" name="expectation" value="expectation-4" class="calculator__radio-input">
-                Улучшение поведенческих факторов
-              </label>
-              <label class="calculator__radio">
-                <input type="radio" name="expectation" value="expectation-5" class="calculator__radio-input">
-                Увеличение продаж
-              </label>           
-              <label class="calculator__radio">
-                <input type="radio" name="expectation" value="expectation-6" class="calculator__radio-input">
-                Популяризация бренда
-              </label>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-2-radio-1" name="expectation" value="expectation-1" class="calculator__radio-input" checked>
+                <label for="calculator__step-2-radio-1" class="calculator__radio-label">Гарантированный выход в ТОП-10 по выбранным запросам</label>
+              </div>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-2-radio-2" name="expectation" value="expectation-2" class="calculator__radio-input">
+                <label for="calculator__step-2-radio-2" class="calculator__radio-label">Выход в ТОП-10 по максимальному списку запросов</label>
+              </div>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-2-radio-3" name="expectation" value="expectation-3" class="calculator__radio-input">
+                <label for="calculator__step-2-radio-3" class="calculator__radio-label">Нужна консультация</label>
+              </div>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-2-radio-4" name="expectation" value="expectation-4" class="calculator__radio-input">
+                <label for="calculator__step-2-radio-4" class="calculator__radio-label">Улучшение поведенческих факторов</label>
+              </div>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-2-radio-5" name="expectation" value="expectation-5" class="calculator__radio-input">
+                <label for="calculator__step-2-radio-5" class="calculator__radio-label">Увеличение продаж</label>
+              </div>
+              <div class="calculator__radio">
+                <input type="radio" id="calculator__step-2-radio-6" name="expectation" value="expectation-6" class="calculator__radio-input">  
+                <label for="calculator__step-2-radio-6" class="calculator__radio-label">Популяризация бренда</label>
+              </div>              
             </div>
             <div class="calculator__bottom">
               <div class="calculator__indicator">
@@ -721,10 +721,10 @@
           <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" placeholder="+7 (___) ___-__-__" required>
           <label for="mrequest__site" class="visually-hidden">Введите адрес своего сайта:</label>
           <input type="url" id="request__site" class="input input_with-icon input_site request__input" name="site" placeholder="Адрес сайта" required>
-          <label class="checkbox request__agreement">
-            <input type="checkbox" class="checkbox__field" checked>
-            Я соглашаюсь с Политикой конфиденциальности
-          </label>
+          <div class="checkbox">
+            <input type="checkbox" id="request__agreement" class="checkbox__input" checked>
+            <label for="request__agreement" class="checkbox__label request__agreement">Я соглашаюсь с Политикой конфиденциальности</label>
+          </div>         
         </div>
         <button type="submit" class="button request__button">Записаться</button>
       </form>
