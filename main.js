@@ -60,3 +60,54 @@ new Glide('.glide', {
     }
   }
 }).mount();
+
+class Calculator {
+  constructor(component) {
+    this._initFields(component);
+    this._attachEventHandlers();
+  }
+
+  _initFields(component) {
+    this._component = component;
+    this._tabs = component.querySelectorAll('.js-calculator__step');
+    this._form = component.querySelector('.js-calculator__form');   
+  }
+
+  _showTab(tab) {
+    tab.classList.add('active');
+  }
+
+  _hideTab(tab) {
+    tab.classList.remove('active');
+  }
+
+  _attachEventHandlers() {
+    [...this._tabs].map((tab, index) => {
+      const nextButton = tab.querySelector('.js-calculator__next-button');
+      if (nextButton) {
+        nextButton.addEventListener('click', () => {
+          this._showTab(this._tabs[index + 1]);
+          this._hideTab(tab);
+        });
+      }
+
+      const backButton = tab.querySelector('.js-calculator__back-button');
+      if (backButton) {
+        backButton.addEventListener('click', () => {
+          this._showTab(this._tabs[index - 1]);
+          this._hideTab(tab);
+        });
+      }
+    });
+    this._form.addEventListener('keydown', (event) => {
+      if(event.keyCode == 13) {
+        event.preventDefault();
+     }
+    })
+  }
+}
+
+const calculator = document.querySelector('.js-calculator');
+if (calculator) {
+  new Calculator(calculator);
+}

@@ -59,7 +59,7 @@
           и определим позиции</p>
           <div class="main-screen__form-input-group">
             <label for="main-screen__phone" class="visually-hidden">Введите свой номер телефона:</label>
-            <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7 (___) ___-__-__" required>
+            <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
             <label for="main-screen__site" class="visually-hidden">Введите адрес своего сайта:</label>
             <input type="url" id="main-screen__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
             <label class="checkbox main-screen__form-agreement">
@@ -210,7 +210,7 @@
       </div>
       <form action="" method="post" class="audit__form">
         <label for="audit__phone" class="visually-hidden">Введите свой номер телефона:</label>
-        <input type="tel" id="audit__phone" class="input input_with-icon input_phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7 (___) ___-__-__" required>
+        <input type="tel" id="audit__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
         <label for="audit__site" class="visually-hidden">Введите адрес своего сайта:</label>
         <input type="url" id="audit__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
         <span class="audit__note">Пришлём аудит в WhatsApp</span>
@@ -220,9 +220,9 @@
     </div>
   </section>
 
-  <section class="calculator">
-    <div class="container calculator__container">
-      <div class="calculator__step calculator__step-0">
+  <section class="calculator js-calculator">
+    <div class="container calculator__container">      
+      <div class="calculator__step js-calculator__step calculator__step-0 active">
         <div class="calculator__step-0-left">
           <h2 class="calculator__heading">Калькулятор продвижения сайта</h2>
           <p class="calculator__call-to-action">Ответьте на 5 вопросов, и узнайте условия SEO-продвижения для вашего сайта</p>
@@ -233,8 +233,182 @@
             <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-2.svg);">Спланируем индивидуальную стратегию продвижения</li>
             <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-3.svg);">Обеспечим рост трафика на сайт</li>
           </ul>
-          <button class="button calculator__button">Рассчитать стоимость</button>
+          <button class="button calculator__button calculator__button_width_full js-calculator__next-button" type="button">Рассчитать стоимость</button>
         </div>
+      </div>
+      <form action="" method="post" class="js-calculator__form">
+        <div class="calculator__step js-calculator__step calculator__step-1">
+          <div class="calculator__left">
+            <h3 class="calculator__heading">1/5</h2>
+            <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
+          </div>
+          <div class="calculator__right">
+            <p class="calculator__question">К какому типу относится ваш сайт?</p>
+            <div class="calculator__step-1-radio-container">
+              <label class="calculator__radio">
+                <input type="radio" name="site-type" value="shop" class="calculator__radio-input" checked>
+                Интернет-магазин
+              </label>          
+              <label class="calculator__radio">
+                <input type="radio" name="site-type" value="site" class="calculator__radio-input">
+                Корпоративный или многостраничный сайт
+              </label>
+            </div>
+            <div class="calculator__bottom">
+              <div class="calculator__indicator">
+                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <span class="calculator__indicator-step"></span>
+                <span class="calculator__indicator-step"></span>
+                <span class="calculator__indicator-step"></span>
+                <span class="calculator__indicator-step"></span>
+              </div>
+              <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
+            </div>
+          </div>
+        </div>
+        <div class="calculator__step js-calculator__step calculator__step-2">
+          <div class="calculator__left">
+            <h3 class="calculator__heading">2/5</h2>
+            <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
+          </div>
+          <div class="calculator__right">
+            <p class="calculator__question">Чего вы ждёте от продвижения сайта?</p>
+            <div class="calculator__step-2-radio-container">
+              <label class="calculator__radio">
+                <input type="radio" name="expectation" value="expectation-1" class="calculator__radio-input" checked>
+                Гарантированный выход в ТОП-10 по выбранным запросам
+              </label>
+              <label class="calculator__radio">
+                <input type="radio" name="expectation" value="expectation-2" class="calculator__radio-input">
+                Выход в ТОП-10 по максимальному списку запросов
+              </label>
+              <label class="calculator__radio">
+                <input type="radio" name="expectation" value="expectation-3" class="calculator__radio-input">
+                Нужна консультация
+              </label>
+              <label class="calculator__radio">
+                <input type="radio" name="expectation" value="expectation-4" class="calculator__radio-input">
+                Улучшение поведенческих факторов
+              </label>
+              <label class="calculator__radio">
+                <input type="radio" name="expectation" value="expectation-5" class="calculator__radio-input">
+                Увеличение продаж
+              </label>           
+              <label class="calculator__radio">
+                <input type="radio" name="expectation" value="expectation-6" class="calculator__radio-input">
+                Популяризация бренда
+              </label>
+            </div>
+            <div class="calculator__bottom">
+              <div class="calculator__indicator">
+                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <span class="calculator__indicator-step"></span>
+                <span class="calculator__indicator-step"></span>
+                <span class="calculator__indicator-step"></span>
+              </div>
+              <div class="calculator__buttons-group">
+                <button class="calculator__back-button js-calculator__back-button" type="button">
+                  <span class="visually-hidden">Назад</span>
+                </button>
+                <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculator__step js-calculator__step calculator__step-3">
+          <div class="calculator__left">
+            <h3 class="calculator__heading">3/5</h2>
+            <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
+          </div>
+          <div class="calculator__right">
+            <div class="calculator__header">
+              <p class="calculator__question">Укажите ссылку на ваш сайт</p>
+              <span class="calculator__question-note">можно пропустить</span>
+            </div>            
+            <label for="calculator__site" class="visually-hidden">Введите адрес своего сайта:</label>
+            <input type="url" id="calculator__site" class="input input_with-icon input_site calculator__input" name="site" placeholder="https://pr-volga.ru/">
+            <div class="calculator__bottom">
+              <div class="calculator__indicator">
+                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <span class="calculator__indicator-step"></span>
+                <span class="calculator__indicator-step"></span>
+              </div>
+              <div class="calculator__buttons-group">
+                <button class="calculator__back-button js-calculator__back-button" type="button">
+                  <span class="visually-hidden">Назад</span>
+                </button>
+                <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculator__step js-calculator__step calculator__step-4">
+          <div class="calculator__left">
+            <h3 class="calculator__heading">4/5</h2>
+            <p class="calculator__note">Стоимость SEO-продвижения для вашего бизнеса</p>
+          </div>
+          <div class="calculator__right calculator__right_without_paddings">
+            <div class="calculator__header calculator__header_with_bottom-border">
+              <p class="calculator__question">от 30 000 ₽</p>
+              <div class="calculator__step-4-tags">
+                <span class="calculator__step-4-tag">Продвижение по позициям</span>
+                <span class="calculator__step-4-tag">Корпоративный или многостраничный сайт</span>
+              </div>
+            </div>            
+            <div class="calculator__step-4-content">
+              <p class="calculator__step-4-offer">
+                <span class="calculator__step-4-offer-line-1">Экспертная сессия</span>
+                <br>
+                <span class="calculator__step-4-offer-accent">в подарок</span>
+                от наших специалистов
+              </p>
+              <div class="calculator__bottom">
+                <div class="calculator__indicator">
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step"></span>
+                </div>
+                <button class="button calculator__button js-calculator__next-button" type="button">Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calculator__step js-calculator__step calculator__step-5">
+          <div class="calculator__left">
+            <h3 class="calculator__heading">5/5</h2>
+            <p class="calculator__note">Вы узнали предварительную стоимость по услуге SEO-продвижения</p>
+          </div>
+          <div class="calculator__right">
+            <p class="calculator__question">Оставьте заявку прямо сейчас и получите экспертную сессию от наших специалистов в подарок!</p>
+            <div class="calculator__step-5-content">
+              <label for="calculator__name" class="visually-hidden">Введите Ваше имя:</label>
+              <input type="tel" id="calculator__name" class="input input_with-icon input_name" name="name" placeholder="Ваше имя">
+              <label for="calculator__mail" class="visually-hidden">Введите свой email:</label>
+              <input type="tel" id="calculator__mail" class="input input_with-icon input_mail" name="mail" placeholder="Email">
+              <label for="calculator__phone" class="visually-hidden">Введите свой номер телефона:</label>
+              <input type="tel" id="calculator__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__">
+              <div class="calculator__step-5-indicator-and-agreement">
+                <div class="calculator__indicator">
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                </div>
+                <p class="calculator__agreement">Отправляя заявку я соглашаюсь с <a href="#">Политикой конфиденциальности</a> и <a href="#">Положением об обработке персональных данных</a></p>
+              </div>
+              <button class="button calculator__button calculator__step-5-button js-calculator__submit-button" type="submit">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+      </form>
+      <div class="calculator__step calculator__step-final">
+        <p class="calculator__step-final-text">Заявка отправлена!</p>
       </div>
     </div>
   </section>
@@ -544,7 +718,7 @@
         <p class="request__note">Оставьте заявку, после чего мы сможем собрать ключевые запросы, проверить позиции по ним, составить план продвижения и сделать вам предложение по оптимизации сайта.</p>
         <div class="request__input-group">
           <label for="request__phone" class="visually-hidden">Введите свой номер телефона:</label>
-          <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+7 (___) ___-__-__" required>
+          <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" placeholder="+7 (___) ___-__-__" required>
           <label for="mrequest__site" class="visually-hidden">Введите адрес своего сайта:</label>
           <input type="url" id="request__site" class="input input_with-icon input_site request__input" name="site" placeholder="Адрес сайта" required>
           <label class="checkbox request__agreement">
