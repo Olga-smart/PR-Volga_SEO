@@ -333,7 +333,11 @@ a {
   transition: all 0.2s ease-in-out;
 }
 .header_opaque {
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.80);
+  -webkit-box-shadow: 0 1.2rem 1.9rem 0 rgba(93, 0, 108, 0.15);
+          box-shadow: 0 1.2rem 1.9rem 0 rgba(93, 0, 108, 0.15);
+  -webkit-backdrop-filter: blur(.425rem);
+          backdrop-filter: blur(.425rem);
 }
 .header__container {
   min-width: 300px;
