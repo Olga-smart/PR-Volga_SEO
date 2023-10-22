@@ -1978,6 +1978,10 @@ a {
   background-position: top 2rem center;
   grid-row: span 2;
 }
+.tasks__item-10 {
+  grid-row: 3/5;
+  grid-column: 3/4;
+}
 .tasks__item-heading {
   margin: 0;
   font-weight: 700;
@@ -2027,6 +2031,10 @@ a {
 @media (max-width: 767px) {
   .tasks__list {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .tasks__item-10 {
+    grid-row: span 2;
+    grid-column: unset;
   }
 }
 @media (max-width: 575px) {
