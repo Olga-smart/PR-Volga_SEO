@@ -40,790 +40,794 @@
     </div>
   </header>
 
-  <section class="main-screen">
-    <div class="container main-screen__container">
-      <div class="main-screen__promo">
-        <h1 class="main-screen__h1">
-          <img src="./img/SEO.svg" alt="SEO" width="390" height="146" class="main-screen__h1-img">
-          <span class="visually-hidden">SEO</span>продвижение сайтов
-        </h1>
-        <ul class="main-screen__list">
-          <li>Минимум на 50% увеличим посещаемость</li>
-          <li>На 30% возрастет количество заявок</li>
-          <li>Честно выводим сайты на первые три строчки Яндекса и Google</li>
+  <main class="main">
+
+    <section class="main-screen">
+      <div class="container main-screen__container">
+        <div class="main-screen__promo">
+          <h1 class="main-screen__h1">
+            <img src="./img/SEO.svg" alt="SEO" width="390" height="146" class="main-screen__h1-img">
+            <span class="visually-hidden">SEO</span>продвижение сайтов
+          </h1>
+          <ul class="main-screen__list">
+            <li>Минимум на 50% увеличим посещаемость</li>
+            <li>На 30% возрастет количество заявок</li>
+            <li>Честно выводим сайты на первые три строчки Яндекса и Google</li>
+          </ul>
+          <span class="main-screen__call-to-action">Запишитесь<br> на встречу с экспертом</span>
+        </div>
+        <form method="post" class="main-screen__form">
+          <p class="main-screen__form-heading">Напишите нам и мы соберем запросы для вашего бизнеса 
+            и определим позиции</p>
+            <div class="main-screen__form-input-group">
+              <label for="main-screen__phone" class="visually-hidden">Введите свой номер телефона:</label>
+              <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+              <label for="main-screen__site" class="visually-hidden">Введите адрес своего сайта:</label>
+              <input type="url" id="main-screen__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
+              <div class="checkbox">
+                <input type="checkbox" id="main-screen__agreement" class="checkbox__input" checked>
+                <label for="main-screen__agreement" class="checkbox__label main-screen__form-agreement">Я соглашаюсь с Политикой конфиденциальности</label>
+              </div>
+            </div>
+            <button type="submit" class="button main-screen__form-button">Записаться</button>
+        </form>
+      </div>
+      <div class="main-screen__accreditation">
+        <div class="container main-screen__accreditation-container">
+          <img src="./img/ministry-of-digital-dev.svg" alt="Минцифры России" width="235" height="51" class="main-screen__accreditation-logo">
+          <span>АККРЕДИТОВАННАЯ IT КОМПАНИЯ ОТ МИНЦИФРЫ</span>
+        </div>
+      </div>
+    </section>
+  
+    <section class="cases">
+      <div class="container">
+        <div class="cases__header">
+          <h2 class="cases__heading">Кейсы наших клиентов</h2>
+          <a href="#" class="presentation-link">pdf-презентация компании</a>
+        </div>
+      </div>
+      <div class="glide">
+        <div class="glide__arrows cases__slider" data-glide-el="controls">
+          <button class="glide__arrow glide__arrow--left cases__slider-arrow-left" data-glide-dir="<">
+            <span class="visually-hidden">назад</span>
+          </button>
+          <div class="glide__track cases__slider-track" data-glide-el="track">
+            <ul class="glide__slides">
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-1.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">Вывод с 0 до 85% запросов в Топ-10 за 7 месяцев</h3>
+                    <span class="cases__card-tag">Транспортные услуги</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-2.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">За 13 месяцев Топ-10 Яндекса 61% и в Google 57</h3>
+                    <span class="cases__card-tag">Анти-шум</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-3.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">Продвижение с 10 до 60% в Топ-10 Яндекса за 5 месяцев</h3>
+                    <span class="cases__card-tag">Школа тенниса</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-4.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">Вывод очень конкурентной тематики в ТОП Яндекса за 10 месяцев</h3>
+                    <span class="cases__card-tag">Служба эвакуации автомобилей</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-1.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">Вывод с 0 до 85% запросов в Топ-10 за 7 месяцев</h3>
+                    <span class="cases__card-tag">Транспортные услуги</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-2.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">За 13 месяцев Топ-10 Яндекса 61% и в Google 57</h3>
+                    <span class="cases__card-tag">Анти-шум</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-3.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">Продвижение с 10 до 60% в Топ-10 Яндекса за 5 месяцев</h3>
+                    <span class="cases__card-tag">Школа тенниса</span>
+                  </div>
+                </a>
+              </li>
+              <li class="glide__slide">
+                <a href="#" class="cases__card">
+                  <img src="./img/cases-img-4.webp" alt="" class="cases__card-img" width="356" height="269">
+                  <div class="cases__card-text">
+                    <h3 class="cases__card-heading">Вывод очень конкурентной тематики в ТОП Яндекса за 10 месяцев</h3>
+                    <span class="cases__card-tag">Служба эвакуации автомобилей</span>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <button class="glide__arrow glide__arrow--right cases__slider-arrow-right" data-glide-dir=">">
+            <span class="visually-hidden">вперед</span>
+          </button>
+        </div>
+      </div>
+    </section>
+  
+    <section class="deadlines">
+      <div class="container">
+        <h2 class="deadlines__heading">Когда будут результаты</h2>
+        <ul class="deadlines__list">
+          <li class="deadlines__item" style="background-image: url(./img/deadlines-img-1.webp);">
+            <span class="deadlines__item-heading">1-2 месяц</span>
+            <p class="deadlines__item-text">Обновление сайта в поисковых системах в соответствии с проведенной внутренней SEO-оптимизацией сайта. Рост поискового трафика.</p>
+          </li>
+          <li class="deadlines__item" style="background-image: url(./img/deadlines-img-2.webp);">
+            <span class="deadlines__item-heading">3-4 месяц</span>
+            <p class="deadlines__item-text">Попадание до 20% запросов в ТОП-10 поисковых систем. Рост поискового трафика.</p>
+          </li>
+          <li class="deadlines__item" style="background-image: url(./img/deadlines-img-3.webp);">
+            <span class="deadlines__item-heading">5-6 месяц</span>
+            <p class="deadlines__item-text">Попадание до 50% запросов в топ-10 поисковых систем. Рост поискового трафика. Рост заявок.</p>
+          </li>
+          <li class="deadlines__item" style="background-image: url(./img/deadlines-img-4.webp);">
+            <span class="deadlines__item-heading">7-8 месяц</span>
+            <p class="deadlines__item-text">Попадание до 70% запросов в топ-10 поисковых систем. Рост поискового трафика. Стабильный поток заявок.</p>
+          </li>
         </ul>
-        <span class="main-screen__call-to-action">Запишитесь<br> на встречу с экспертом</span>
       </div>
-      <form action="" method="post" class="main-screen__form">
-        <p class="main-screen__form-heading">Напишите нам и мы соберем запросы для вашего бизнеса 
-          и определим позиции</p>
-          <div class="main-screen__form-input-group">
-            <label for="main-screen__phone" class="visually-hidden">Введите свой номер телефона:</label>
-            <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
-            <label for="main-screen__site" class="visually-hidden">Введите адрес своего сайта:</label>
-            <input type="url" id="main-screen__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
-            <div class="checkbox">
-              <input type="checkbox" id="main-screen__agreement" class="checkbox__input" checked>
-              <label for="main-screen__agreement" class="checkbox__label main-screen__form-agreement">Я соглашаюсь с Политикой конфиденциальности</label>
-            </div>
+    </section>
+  
+    <section class="audit">
+      <div class="container audit__container">
+        <div class="audit__call-to-action">
+          <h2 class="audit__heading">Аудит и расчёт стоимости продвижения в 
+            <span class="audit__whatsapp-wrapper">
+              <img class="audit__whatsapp-icon" src="./img/whatsapp.svg" alt="WhatsApp" width="50" height="50">
+              <span class="audit__whatsapp">WhatsApp</span>
+            </span>
+          </h2>
+          <p class="audit__text">В течение 1-го рабочего дня мы проведем аудит, на основании которого определим стоимость услуг по продвижению вашего сайта</p>
+        </div>
+        <form method="post" class="audit__form">
+          <label for="audit__phone" class="visually-hidden">Введите свой номер телефона:</label>
+          <input type="tel" id="audit__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+          <label for="audit__site" class="visually-hidden">Введите адрес своего сайта:</label>
+          <input type="url" id="audit__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
+          <span class="audit__note">Пришлём аудит в WhatsApp</span>
+          <button type="submit" class="button audit__form-button">Получить расчёт</button>
+          <p class="audit__form-agreement">Отправляя форму, Вы соглашаетесь с Политикой Конфидециальности сайта</p>
+        </form>
+      </div>
+    </section>
+  
+    <section class="calculator js-calculator">
+      <div class="container calculator__container">      
+        <div class="calculator__step js-calculator__step calculator__step-0 active">
+          <div class="calculator__step-0-left">
+            <h2 class="calculator__heading">Калькулятор продвижения сайта</h2>
+            <p class="calculator__call-to-action">Ответьте на 5 вопросов, и узнайте условия SEO-продвижения для вашего сайта</p>
           </div>
-          <button type="submit" class="button main-screen__form-button">Записаться</button>
-      </form>
-    </div>
-    <div class="main-screen__accreditation">
-      <div class="container main-screen__accreditation-container">
-        <img src="./img/ministry-of-digital-dev.svg" alt="Минцифры России" width="235" height="51" class="main-screen__accreditation-logo">
-        <span>АККРЕДИТОВАННАЯ IT КОМПАНИЯ ОТ МИНЦИФРЫ</span>
-      </div>
-    </div>
-  </section>
-
-  <section class="cases">
-    <div class="container">
-      <div class="cases__header">
-        <h2 class="cases__heading">Кейсы наших клиентов</h2>
-        <a href="#" class="presentation-link">pdf-презентация компании</a>
-      </div>
-    </div>
-    <div class="glide">
-      <div class="glide__arrows cases__slider" data-glide-el="controls">
-        <button class="glide__arrow glide__arrow--left cases__slider-arrow-left" data-glide-dir="<">
-          <span class="visually-hidden">назад</span>
-        </button>
-        <div class="glide__track cases__slider-track" data-glide-el="track">
-          <ul class="glide__slides">
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-1.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">Вывод с 0 до 85% запросов в Топ-10 за 7 месяцев</h3>
-                  <span class="cases__card-tag">Транспортные услуги</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-2.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">За 13 месяцев Топ-10 Яндекса 61% и в Google 57</h3>
-                  <span class="cases__card-tag">Анти-шум</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-3.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">Продвижение с 10 до 60% в Топ-10 Яндекса за 5 месяцев</h3>
-                  <span class="cases__card-tag">Школа тенниса</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-4.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">Вывод очень конкурентной тематики в ТОП Яндекса за 10 месяцев</h3>
-                  <span class="cases__card-tag">Служба эвакуации автомобилей</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-1.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">Вывод с 0 до 85% запросов в Топ-10 за 7 месяцев</h3>
-                  <span class="cases__card-tag">Транспортные услуги</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-2.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">За 13 месяцев Топ-10 Яндекса 61% и в Google 57</h3>
-                  <span class="cases__card-tag">Анти-шум</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-3.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">Продвижение с 10 до 60% в Топ-10 Яндекса за 5 месяцев</h3>
-                  <span class="cases__card-tag">Школа тенниса</span>
-                </div>
-              </a>
-            </li>
-            <li class="glide__slide">
-              <a href="#" class="cases__card">
-                <img src="./img/cases-img-4.webp" alt="" class="cases__card-img" width="356" height="269">
-                <div class="cases__card-text">
-                  <h3 class="cases__card-heading">Вывод очень конкурентной тематики в ТОП Яндекса за 10 месяцев</h3>
-                  <span class="cases__card-tag">Служба эвакуации автомобилей</span>
-                </div>
-              </a>
-            </li>
-          </ul>
-        </div>
-        <button class="glide__arrow glide__arrow--right cases__slider-arrow-right" data-glide-dir=">">
-          <span class="visually-hidden">вперед</span>
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section class="deadlines">
-    <div class="container">
-      <h2 class="deadlines__heading">Когда будут результаты</h2>
-      <ul class="deadlines__list">
-        <li class="deadlines__item" style="background-image: url(./img/deadlines-img-1.webp);">
-          <span class="deadlines__item-heading">1-2 месяц</span>
-          <p class="deadlines__item-text">Обновление сайта в поисковых системах в соответствии с проведенной внутренней SEO-оптимизацией сайта. Рост поискового трафика.</p>
-        </li>
-        <li class="deadlines__item" style="background-image: url(./img/deadlines-img-2.webp);">
-          <span class="deadlines__item-heading">3-4 месяц</span>
-          <p class="deadlines__item-text">Попадание до 20% запросов в ТОП-10 поисковых систем. Рост поискового трафика.</p>
-        </li>
-        <li class="deadlines__item" style="background-image: url(./img/deadlines-img-3.webp);">
-          <span class="deadlines__item-heading">5-6 месяц</span>
-          <p class="deadlines__item-text">Попадание до 50% запросов в топ-10 поисковых систем. Рост поискового трафика. Рост заявок.</p>
-        </li>
-        <li class="deadlines__item" style="background-image: url(./img/deadlines-img-4.webp);">
-          <span class="deadlines__item-heading">7-8 месяц</span>
-          <p class="deadlines__item-text">Попадание до 70% запросов в топ-10 поисковых систем. Рост поискового трафика. Стабильный поток заявок.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="audit">
-    <div class="container audit__container">
-      <div class="audit__call-to-action">
-        <h2 class="audit__heading">Аудит и расчёт стоимости продвижения в 
-          <span class="audit__whatsapp-wrapper">
-            <img class="audit__whatsapp-icon" src="./img/whatsapp.svg" alt="WhatsApp" width="50" height="50">
-            <span class="audit__whatsapp">WhatsApp</span>
-          </span>
-        </h2>
-        <p class="audit__text">В течение 1-го рабочего дня мы проведем аудит, на основании которого определим стоимость услуг по продвижению вашего сайта</p>
-      </div>
-      <form action="" method="post" class="audit__form">
-        <label for="audit__phone" class="visually-hidden">Введите свой номер телефона:</label>
-        <input type="tel" id="audit__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
-        <label for="audit__site" class="visually-hidden">Введите адрес своего сайта:</label>
-        <input type="url" id="audit__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
-        <span class="audit__note">Пришлём аудит в WhatsApp</span>
-        <button type="submit" class="button audit__form-button">Получить расчёт</button>
-        <p class="audit__form-agreement">Отправляя форму, Вы соглашаетесь с Политикой Конфидециальности сайта</p>
-      </form>
-    </div>
-  </section>
-
-  <section class="calculator js-calculator">
-    <div class="container calculator__container">      
-      <div class="calculator__step js-calculator__step calculator__step-0 active">
-        <div class="calculator__step-0-left">
-          <h2 class="calculator__heading">Калькулятор продвижения сайта</h2>
-          <p class="calculator__call-to-action">Ответьте на 5 вопросов, и узнайте условия SEO-продвижения для вашего сайта</p>
-        </div>
-        <div class="calculator__step-0-right">
-          <ul class="calculator__list">
-            <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-1.svg);">Проведем аудит</li>
-            <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-2.svg);">Спланируем индивидуальную стратегию продвижения</li>
-            <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-3.svg);">Обеспечим рост трафика на сайт</li>
-          </ul>
-          <button class="button calculator__button calculator__button_width_full js-calculator__next-button" type="button">Рассчитать стоимость</button>
-        </div>
-      </div>
-      <form action="" method="post" class="js-calculator__form">
-        <div class="calculator__step js-calculator__step calculator__step-1">
-          <div class="calculator__left">
-            <h3 class="calculator__heading">1/5</h2>
-            <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
-          </div>
-          <div class="calculator__right">
-            <p class="calculator__question">К какому типу относится ваш сайт?</p>
-            <div class="calculator__step-1-radio-container">
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-1-radio-1" name="site-type" value="shop" class="calculator__radio-input" checked>
-                <label for="calculator__step-1-radio-1" class="calculator__radio-label">Интернет-магазин</label>
-              </div>
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-1-radio-2" name="site-type" value="site" class="calculator__radio-input">
-                <label for="calculator__step-1-radio-2" class="calculator__radio-label">Корпоративный или многостраничный сайт</label>
-              </div>              
-            </div>
-            <div class="calculator__bottom">
-              <div class="calculator__indicator">
-                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                <span class="calculator__indicator-step"></span>
-                <span class="calculator__indicator-step"></span>
-                <span class="calculator__indicator-step"></span>
-                <span class="calculator__indicator-step"></span>
-              </div>
-              <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
-            </div>
+          <div class="calculator__step-0-right">
+            <ul class="calculator__list">
+              <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-1.svg);">Проведем аудит</li>
+              <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-2.svg);">Спланируем индивидуальную стратегию продвижения</li>
+              <li class="calculator__list-item" style="background-image: url(./img/calculator-icon-3.svg);">Обеспечим рост трафика на сайт</li>
+            </ul>
+            <button class="button calculator__button calculator__button_width_full js-calculator__next-button" type="button">Рассчитать стоимость</button>
           </div>
         </div>
-        <div class="calculator__step js-calculator__step calculator__step-2">
-          <div class="calculator__left">
-            <h3 class="calculator__heading">2/5</h2>
-            <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
-          </div>
-          <div class="calculator__right">
-            <p class="calculator__question">Чего вы ждёте от продвижения сайта?</p>
-            <div class="calculator__step-2-radio-container">
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-2-radio-1" name="expectation" value="expectation-1" class="calculator__radio-input" checked>
-                <label for="calculator__step-2-radio-1" class="calculator__radio-label">Гарантированный выход в ТОП-10 по выбранным запросам</label>
-              </div>
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-2-radio-2" name="expectation" value="expectation-2" class="calculator__radio-input">
-                <label for="calculator__step-2-radio-2" class="calculator__radio-label">Выход в ТОП-10 по максимальному списку запросов</label>
-              </div>
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-2-radio-3" name="expectation" value="expectation-3" class="calculator__radio-input">
-                <label for="calculator__step-2-radio-3" class="calculator__radio-label">Нужна консультация</label>
-              </div>
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-2-radio-4" name="expectation" value="expectation-4" class="calculator__radio-input">
-                <label for="calculator__step-2-radio-4" class="calculator__radio-label">Улучшение поведенческих факторов</label>
-              </div>
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-2-radio-5" name="expectation" value="expectation-5" class="calculator__radio-input">
-                <label for="calculator__step-2-radio-5" class="calculator__radio-label">Увеличение продаж</label>
-              </div>
-              <div class="calculator__radio">
-                <input type="radio" id="calculator__step-2-radio-6" name="expectation" value="expectation-6" class="calculator__radio-input">  
-                <label for="calculator__step-2-radio-6" class="calculator__radio-label">Популяризация бренда</label>
-              </div>              
+        <form method="post" class="js-calculator__form">
+          <div class="calculator__step js-calculator__step calculator__step-1">
+            <div class="calculator__left">
+              <h3 class="calculator__heading">1/5</h3>
+              <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
             </div>
-            <div class="calculator__bottom">
-              <div class="calculator__indicator">
-                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                <span class="calculator__indicator-step"></span>
-                <span class="calculator__indicator-step"></span>
-                <span class="calculator__indicator-step"></span>
+            <div class="calculator__right">
+              <p class="calculator__question">К какому типу относится ваш сайт?</p>
+              <div class="calculator__step-1-radio-container">
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-1-radio-1" name="site-type" value="shop" class="calculator__radio-input" checked>
+                  <label for="calculator__step-1-radio-1" class="calculator__radio-label">Интернет-магазин</label>
+                </div>
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-1-radio-2" name="site-type" value="site" class="calculator__radio-input">
+                  <label for="calculator__step-1-radio-2" class="calculator__radio-label">Корпоративный или многостраничный сайт</label>
+                </div>              
               </div>
-              <div class="calculator__buttons-group">
-                <button class="calculator__back-button js-calculator__back-button" type="button">
-                  <span class="visually-hidden">Назад</span>
-                </button>
+              <div class="calculator__bottom">
+                <div class="calculator__indicator">
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step"></span>
+                  <span class="calculator__indicator-step"></span>
+                  <span class="calculator__indicator-step"></span>
+                  <span class="calculator__indicator-step"></span>
+                </div>
                 <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
               </div>
             </div>
           </div>
-        </div>
-        <div class="calculator__step js-calculator__step calculator__step-3">
-          <div class="calculator__left">
-            <h3 class="calculator__heading">3/5</h2>
-            <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
-          </div>
-          <div class="calculator__right">
-            <div class="calculator__header">
-              <p class="calculator__question">Укажите ссылку на ваш сайт</p>
-              <span class="calculator__question-note">можно пропустить</span>
-            </div>            
-            <label for="calculator__site" class="visually-hidden">Введите адрес своего сайта:</label>
-            <input type="url" id="calculator__site" class="input input_with-icon input_site calculator__input" name="site" placeholder="https://pr-volga.ru/">
-            <div class="calculator__bottom">
-              <div class="calculator__indicator">
-                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                <span class="calculator__indicator-step"></span>
-                <span class="calculator__indicator-step"></span>
+          <div class="calculator__step js-calculator__step calculator__step-2">
+            <div class="calculator__left">
+              <h3 class="calculator__heading">2/5</h3>
+              <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
+            </div>
+            <div class="calculator__right">
+              <p class="calculator__question">Чего вы ждёте от продвижения сайта?</p>
+              <div class="calculator__step-2-radio-container">
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-2-radio-1" name="expectation" value="expectation-1" class="calculator__radio-input" checked>
+                  <label for="calculator__step-2-radio-1" class="calculator__radio-label">Гарантированный выход в ТОП-10 по выбранным запросам</label>
+                </div>
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-2-radio-2" name="expectation" value="expectation-2" class="calculator__radio-input">
+                  <label for="calculator__step-2-radio-2" class="calculator__radio-label">Выход в ТОП-10 по максимальному списку запросов</label>
+                </div>
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-2-radio-3" name="expectation" value="expectation-3" class="calculator__radio-input">
+                  <label for="calculator__step-2-radio-3" class="calculator__radio-label">Нужна консультация</label>
+                </div>
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-2-radio-4" name="expectation" value="expectation-4" class="calculator__radio-input">
+                  <label for="calculator__step-2-radio-4" class="calculator__radio-label">Улучшение поведенческих факторов</label>
+                </div>
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-2-radio-5" name="expectation" value="expectation-5" class="calculator__radio-input">
+                  <label for="calculator__step-2-radio-5" class="calculator__radio-label">Увеличение продаж</label>
+                </div>
+                <div class="calculator__radio">
+                  <input type="radio" id="calculator__step-2-radio-6" name="expectation" value="expectation-6" class="calculator__radio-input">  
+                  <label for="calculator__step-2-radio-6" class="calculator__radio-label">Популяризация бренда</label>
+                </div>              
               </div>
-              <div class="calculator__buttons-group">
-                <button class="calculator__back-button js-calculator__back-button" type="button">
-                  <span class="visually-hidden">Назад</span>
-                </button>
-                <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
+              <div class="calculator__bottom">
+                <div class="calculator__indicator">
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step"></span>
+                  <span class="calculator__indicator-step"></span>
+                  <span class="calculator__indicator-step"></span>
+                </div>
+                <div class="calculator__buttons-group">
+                  <button class="calculator__back-button js-calculator__back-button" type="button">
+                    <span class="visually-hidden">Назад</span>
+                  </button>
+                  <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="calculator__step js-calculator__step calculator__step-4">
-          <div class="calculator__left">
-            <h3 class="calculator__heading">4/5</h2>
-            <p class="calculator__note">Стоимость SEO-продвижения для вашего бизнеса</p>
-          </div>
-          <div class="calculator__right calculator__right_without_paddings">
-            <div class="calculator__header calculator__header_with_bottom-border">
-              <p class="calculator__question">от 30 000 ₽</p>
-              <div class="calculator__step-4-tags">
-                <span class="calculator__step-4-tag">Продвижение по позициям</span>
-                <span class="calculator__step-4-tag">Корпоративный или многостраничный сайт</span>
-              </div>
-            </div>            
-            <div class="calculator__step-4-content">
-              <p class="calculator__step-4-offer">
-                <span class="calculator__step-4-offer-line-1">Экспертная сессия</span>
-                <br>
-                <span class="calculator__step-4-offer-accent">в подарок</span>
-                от наших специалистов
-              </p>
+          <div class="calculator__step js-calculator__step calculator__step-3">
+            <div class="calculator__left">
+              <h3 class="calculator__heading">3/5</h3>
+              <p class="calculator__note">Узнайте стоимость SEO-продвижения для вашего бизнеса</p>
+            </div>
+            <div class="calculator__right">
+              <div class="calculator__header">
+                <p class="calculator__question">Укажите ссылку на ваш сайт</p>
+                <span class="calculator__question-note">можно пропустить</span>
+              </div>            
+              <label for="calculator__site" class="visually-hidden">Введите адрес своего сайта:</label>
+              <input type="url" id="calculator__site" class="input input_with-icon input_site calculator__input" name="site" placeholder="https://pr-volga.ru/">
               <div class="calculator__bottom">
                 <div class="calculator__indicator">
                   <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
                   <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
                   <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  <span class="calculator__indicator-step"></span>
                   <span class="calculator__indicator-step"></span>
                 </div>
-                <button class="button calculator__button js-calculator__next-button" type="button">Оставить заявку</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="calculator__step js-calculator__step calculator__step-5">
-          <div class="calculator__left">
-            <h3 class="calculator__heading">5/5</h2>
-            <p class="calculator__note">Вы узнали предварительную стоимость по услуге SEO-продвижения</p>
-          </div>
-          <div class="calculator__right">
-            <p class="calculator__question">Оставьте заявку прямо сейчас и получите экспертную сессию от наших специалистов в подарок!</p>
-            <div class="calculator__step-5-content">
-              <label for="calculator__name" class="visually-hidden">Введите Ваше имя:</label>
-              <input type="tel" id="calculator__name" class="input input_with-icon input_name" name="name" placeholder="Ваше имя">
-              <label for="calculator__mail" class="visually-hidden">Введите свой email:</label>
-              <input type="tel" id="calculator__mail" class="input input_with-icon input_mail" name="mail" placeholder="Email">
-              <label for="calculator__phone" class="visually-hidden">Введите свой номер телефона:</label>
-              <input type="tel" id="calculator__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__">
-              <div class="calculator__step-5-indicator-and-agreement">
-                <div class="calculator__indicator">
-                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
-                  <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                <div class="calculator__buttons-group">
+                  <button class="calculator__back-button js-calculator__back-button" type="button">
+                    <span class="visually-hidden">Назад</span>
+                  </button>
+                  <button class="button calculator__button js-calculator__next-button" type="button">Далее</button>
                 </div>
-                <p class="calculator__agreement">Отправляя заявку я соглашаюсь с <a href="#">Политикой конфиденциальности</a> и <a href="#">Положением об обработке персональных данных</a></p>
               </div>
-              <button class="button calculator__button calculator__step-5-button js-calculator__submit-button" type="submit">Оставить заявку</button>
             </div>
           </div>
-        </div>
-      </form>
-      <div class="calculator__step calculator__step-final">
-        <p class="calculator__step-final-text">Заявка отправлена!</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="price">
-    <div class="container">
-      <div class="price__header">
-        <h2 class="price__heading">
-          <span class="price__heading-line-1">Стоимость услуг</span>
-          <br>
-           по продвижению сайта
-        </h2>
-        <p class="price__note">Выведение страниц сайта в топ поисковой выдачи Яндекс и Google по выбранным ключевым фразам</p>
-      </div>
-      <ul class="price__list">
-        <li class="price__item">
-          <div class="price__item-header">
-            <h3 class="price__item-heading">Продвижение по позициям</h3>
-            <span class="price__cost">
-              <span class="price__cost-number">от 30 000 ₽</span>
-              /месяц
-            </span>
+          <div class="calculator__step js-calculator__step calculator__step-4">
+            <div class="calculator__left">
+              <h3 class="calculator__heading">4/5</h3>
+              <p class="calculator__note">Стоимость SEO-продвижения для вашего бизнеса</p>
+            </div>
+            <div class="calculator__right calculator__right_without_paddings">
+              <div class="calculator__header calculator__header_with_bottom-border">
+                <p class="calculator__question">от 30 000 ₽</p>
+                <div class="calculator__step-4-tags">
+                  <span class="calculator__step-4-tag">Продвижение по позициям</span>
+                  <span class="calculator__step-4-tag">Корпоративный или многостраничный сайт</span>
+                </div>
+              </div>            
+              <div class="calculator__step-4-content">
+                <p class="calculator__step-4-offer">
+                  <span class="calculator__step-4-offer-line-1">Экспертная сессия</span>
+                  <br>
+                  <span class="calculator__step-4-offer-accent">в подарок</span>
+                  от наших специалистов
+                </p>
+                <div class="calculator__bottom">
+                  <div class="calculator__indicator">
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step"></span>
+                  </div>
+                  <button class="button calculator__button js-calculator__next-button" type="button">Оставить заявку</button>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="price__item-body">
-            <ul class="price__item-list">
-              <li class="price__item-list-item">Один пункт</li>
-              <li class="price__item-list-item">Преимущество два</li>
-              <li class="price__item-list-item">Поддержка</li>
-              <li class="price__item-list-item">Документация</li>
-              <li class="price__item-list-item">Пункт фичи тарифа  6</li>
+          <div class="calculator__step js-calculator__step calculator__step-5">
+            <div class="calculator__left">
+              <h3 class="calculator__heading">5/5</h3>
+              <p class="calculator__note">Вы узнали предварительную стоимость по услуге SEO-продвижения</p>
+            </div>
+            <div class="calculator__right">
+              <p class="calculator__question">Оставьте заявку прямо сейчас и получите экспертную сессию от наших специалистов в подарок!</p>
+              <div class="calculator__step-5-content">
+                <label for="calculator__name" class="visually-hidden">Введите Ваше имя:</label>
+                <input type="tel" id="calculator__name" class="input input_with-icon input_name" name="name" placeholder="Ваше имя">
+                <label for="calculator__mail" class="visually-hidden">Введите свой email:</label>
+                <input type="tel" id="calculator__mail" class="input input_with-icon input_mail" name="mail" placeholder="Email">
+                <label for="calculator__phone" class="visually-hidden">Введите свой номер телефона:</label>
+                <input type="tel" id="calculator__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__">
+                <div class="calculator__step-5-indicator-and-agreement">
+                  <div class="calculator__indicator">
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                    <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
+                  </div>
+                  <p class="calculator__agreement">Отправляя заявку я соглашаюсь с <a href="#">Политикой конфиденциальности</a> и <a href="#">Положением об обработке персональных данных</a></p>
+                </div>
+                <button class="button calculator__button calculator__step-5-button js-calculator__submit-button" type="submit">Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <div class="calculator__step calculator__step-final">
+          <p class="calculator__step-final-text">Заявка отправлена!</p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="price">
+      <div class="container">
+        <div class="price__header">
+          <h2 class="price__heading">
+            <span class="price__heading-line-1">Стоимость услуг</span>
+            <br>
+             по продвижению сайта
+          </h2>
+          <p class="price__note">Выведение страниц сайта в топ поисковой выдачи Яндекс и Google по выбранным ключевым фразам</p>
+        </div>
+        <ul class="price__list">
+          <li class="price__item">
+            <div class="price__item-header">
+              <h3 class="price__item-heading">Продвижение по позициям</h3>
+              <span class="price__cost">
+                <span class="price__cost-number">от 30 000 ₽</span>
+                /месяц
+              </span>
+            </div>
+            <div class="price__item-body">
+              <ul class="price__item-list">
+                <li class="price__item-list-item">Один пункт</li>
+                <li class="price__item-list-item">Преимущество два</li>
+                <li class="price__item-list-item">Поддержка</li>
+                <li class="price__item-list-item">Документация</li>
+                <li class="price__item-list-item">Пункт фичи тарифа  6</li>
+              </ul>
+              <button class="button price__button">Начать</button>
+            </div>        
+          </li>
+          <li class="price__item">
+            <div class="price__item-header">
+              <h3 class="price__item-heading">Продвижение интернет-магазинов</h3>
+              <span class="price__cost">
+                <span class="price__cost-number">от 40 000 ₽</span>
+                /месяц
+              </span>
+            </div>
+            <div class="price__item-body">
+              <ul class="price__item-list">
+                <li class="price__item-list-item">Один пункт</li>
+                <li class="price__item-list-item">Преимущество два</li>
+                <li class="price__item-list-item">Поддержка</li>
+                <li class="price__item-list-item">Документация</li>
+                <li class="price__item-list-item">Пункт фичи тарифа  6</li>
+              </ul>
+              <button class="button price__button">Начать</button>
+            </div> 
+          </li>
+          <li class="price__item">
+            <div class="price__item-header">
+              <h3 class="price__item-heading">Первичная сео-оптимизация</h3>
+              <span class="price__cost">
+                <span class="price__cost-number">от 30 000 ₽</span>
+                /месяц
+              </span>
+            </div>
+            <div class="price__item-body">
+              <ul class="price__item-list">
+                <li class="price__item-list-item">Один пункт</li>
+                <li class="price__item-list-item">Преимущество два</li>
+                <li class="price__item-list-item">Поддержка</li>
+                <li class="price__item-list-item">Документация</li>
+                <li class="price__item-list-item">Пункт фичи тарифа  6</li>
+              </ul>
+              <button class="button price__button">Начать</button> 
+            </div>
+          </li>
+          <li class="price__item">
+            <div class="price__item-header">
+              <h3 class="price__item-heading">СЕО аудит</h3>
+              <span class="price__cost">
+                <span class="price__cost-number">от 15 000 ₽</span>
+                /сессия
+              </span>
+            </div>
+            <div class="price__item-body">
+              <ul class="price__item-list">
+                <li class="price__item-list-item">Один пункт</li>
+                <li class="price__item-list-item">Преимущество два</li>
+                <li class="price__item-list-item">Поддержка</li>
+                <li class="price__item-list-item">Документация</li>
+                <li class="price__item-list-item">Пункт фичи тарифа  6</li>
+              </ul>
+              <button class="button price__button">Начать</button> 
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="tasks">
+      <div class="container">
+        <h2 class="tasks__heading">Что входит в стоимость комплексного продвижения сайта?</h2>
+        <ul class="tasks__list">
+          <li class="tasks__item tasks__item_accent" style="background-image: url(./img/tasks_img-1.svg);">
+            <h3 class="tasks__item-heading">
+              <span>Индексация в Яндекс и Google</span>
+              <span class="tasks__item-number">01</span>
+            </h3>
+            <p class="tasks__item-text">Гарантирует, что поисковые системы знают о существовании вашего сайта и могут его индексировать.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Проверка настройки кодов ответа сервера (200, 404, 50)</span>
+              <span class="tasks__item-number">02</span>
+            </h3>
+            <p class="tasks__item-text">Обеспечивает, что сервер правильно отвечает на запросы браузеров и поисковых систем.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Корректность robots.txt</span>
+              <span class="tasks__item-number">03</span>
+            </h3>
+            <p class="tasks__item-text">Убеждается, что правила доступа для поисковых роботов настроены правильно.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>HTML код сайта</span>
+              <span class="tasks__item-number">04</span>
+            </h3>
+            <p class="tasks__item-text">Гарантирует, что  HTML-код соответствует стандартам и не содержит ошибок, что влияет на отображение и индексацию страниц.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Проверка на дубликаты страниц, мета-тегов</span>
+              <span class="tasks__item-number">05</span>
+            </h3>
+            <p class="tasks__item-text">Исключает дубликаты контента и мета-тегов, что может негативно сказаться на рейтинге сайта.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Проверка контента сайта  на спам</span>
+              <span class="tasks__item-number">06</span>
+            </h3>
+            <p class="tasks__item-text">Исключает наличие нежелательного контента, который может негативно повлиять на репутацию сайта.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Корректность составления ЧПУ</span>
+              <span class="tasks__item-number">07</span>
+            </h3>
+            <p class="tasks__item-text">Человеко-понятные URL-адреса способствуют лучшей индексации и пониманию контента поисковыми системами.</p>
+          </li>
+          <li class="tasks__item tasks__item_accent" style="background-image: url(./img/tasks_img-2.svg);">
+            <h3 class="tasks__item-heading">
+              <span>Проведение юзабилити аудита</span>
+              <span class="tasks__item-number">10</span>
+            </h3>
+            <p class="tasks__item-text">Анализирует удобство использования сайта для пользователей, что может 
+              повысить его конверсию.</p>
+          </li>
+          <li class="tasks__item tasks__item_col-1">
+            <h3 class="tasks__item-heading">
+              <span>Проверка структуры сайта</span>
+              <span class="tasks__item-number">08</span>
+            </h3>
+            <p class="tasks__item-text">Человеко-понятные URL-адреса способствуют лучшей индексации и пониманию контента поисковыми системами.Анализирует, как устроена структура сайта, чтобы обеспечить удобство навигации для пользователей и роботов поисковых систем.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Проверка контента на уникальность текста</span>
+              <span class="tasks__item-number">09</span>
+            </h3>
+            <p class="tasks__item-text">Обеспечивает, что контент уникален и не дублируется с другими ресурсами.</p>
+          </li>
+          <li class="tasks__item tasks__item_accent" style="background-image: url(./img/tasks_img-3.svg);">
+            <p class="tasks__item-text">Комплексное продвижение сайта включает в себя все эти этапы, обеспечивая всестороннюю оптимизацию и поддержку веб-ресурса для достижения высоких позиций в поисковых системах и привлечения большей аудитории.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Проверка корректности оформления страницы контактов</span>
+              <span class="tasks__item-number">11</span>
+            </h3>
+            <p class="tasks__item-text">Убеждается, что страница контактов является информативной и легко доступной для пользователей.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Проверка работоспособности HTML форм на сайте</span>
+              <span class="tasks__item-number">12</span>
+            </h3>
+            <p class="tasks__item-text">Убеждается, что формы на сайте функционируют корректно, что важно для взаимодействия с пользователями.</p>
+          </li>
+          <li class="tasks__item">
+            <h3 class="tasks__item-heading">
+              <span>Анализ внешних ссылок</span>
+              <span class="tasks__item-number">13</span>
+            </h3>
+            <p class="tasks__item-text">Оценивает качество внешних ссылок на сайт и их влияние на позиции в поисковых системах</p>
+          </li>
+          <li class="tasks__button-wrapper">
+            <button class="button tasks__button">Начать сотрудничество</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="benefits">
+      <div class="container benefits__container">
+        <div class="benefits__left">
+          <div class="benefits__card benefits__card_heading">
+            <h2 class="benefits__heading">Что Вы получите, обратившись в PR_VOLGA</h2>
+          </div>
+          <div class="benefits__card benefits__card_accent" style="background-image: url(./img/benefits-img.svg);">
+            <h3 class="benefits__card-heading benefits__card-heading_big">Разработка стратегии</h3>
+            <p class="benefits__card-text benefits__card-text_big">Каждый проект рассматривается уникально, и мы разрабатываем индивидуальные стратегии, учитывая ваши конкретные цели и потребности.</p>
+          </div>
+          <div class="benefits__card benefits__card_icon-top" style="background-image: url(./img/benefits-icon-1.svg);">
+            <h3 class="benefits__card-heading">Достижение целей</h3>
+            <p class="benefits__card-text">Мы ориентированы на результат. При сотрудничестве с нами вы можете быть уверены, что ваши цели будут достигнуты, и ваш проект станет более успешным.</p>
+          </div>
+          <div class="benefits__card benefits__card_icon-top" style="background-image: url(./img/benefits-icon-2.svg);">
+            <h3 class="benefits__card-heading">Гарантия возврата средств</h3>
+            <p class="benefits__card-text">Мы уверены в качестве наших услуг, поэтому предоставляем гарантию возврата средств в случае неудачи.</p>
+          </div>
+        </div>
+        <div class="benefits__right">
+          <div class="benefits__card benefits__card_icon-left benefits__card_2rows" style="background-image: url(./img/benefits-icon-3.svg);">
+            <h3 class="benefits__card-heading">Долгосрочное партнерство</h3>
+            <p class="benefits__card-text">Мы стремимся к долгосрочным и взаимовыгодным отношениям, обеспечивая тесное сотрудничество и постоянную поддержку.</p>
+          </div>
+          <div class="benefits__card benefits__card_icon-left benefits__card_2rows" style="background-image: url(./img/benefits-icon-4.svg);">
+            <h3 class="benefits__card-heading">Детализированная отчётность</h3>
+            <p class="benefits__card-text">Вы получите подробные отчеты об эффективности продвижения, чтобы всегда быть в курсе результатов наших действий.</p>
+          </div>  
+          <div class="benefits__card benefits__card_icon-left" style="background-image: url(./img/benefits-icon-5.svg);">
+            <h3 class="benefits__card-heading">Оптимизация затрат</h3>
+            <p class="benefits__card-text">Мы стремимся максимально оптимизировать ваши расходы на продвижение, обеспечивая при этом высокую эффективность и видимость вашего проекта.</p>
+          </div>  
+          <div class="benefits__card benefits__card_icon-top" style="background-image: url(./img/benefits-icon-6.svg);">
+            <h3 class="benefits__card-heading">Успешная реализация задач</h3>
+            <p class="benefits__card-text">Наша команда экспертов обеспечивает эффективную и успешную реализацию поставленных перед нами задач.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section class="results" style="background-image: url(./img/results-bg.svg);">
+      <div class="container">
+        <div class="results__header">
+          <h2 class="results__heading">Результаты SEO продвижения от PR_VOLGA</h2>
+          <p class="results__note">С SEO продвижением от PR-Volga вы можете быть уверены в том, что ваш бизнес будет расти и развиваться, привлекая больше клиентов и укрепляя свой бренд на рынке.</p>
+        </div>
+        <ul class="results__list">
+          <li class="results__item">
+            <h3 class="results__item-heading">Увеличить органический трафик</h3>
+            <p class="results__item-text">Мы оптимизируем ваш веб-ресурс так, чтобы он занимал более высокие позиции в поисковых системах, что приводит к увеличению органического трафика.</p>
+          </li>
+          <li class="results__item">
+            <h3 class="results__item-heading">Расширить охват целевой аудитории</h3>
+            <p class="results__item-text">Мы используем стратегии, которые помогут привлечь больше потенциальных клиентов 
+              и увеличить охват вашей целевой аудитории.</p>
+          </li>
+          <li class="results__item">
+            <h3 class="results__item-heading">Укрепить имидж и повысить его узнаваемость</h3>
+            <p class="results__item-text">Наша работа поможет создать позитивное восприятие вашего бренда и сделает его более узнаваемым среди целевой аудитории</p>
+          </li>
+          <li class="results__item">
+            <h3 class="results__item-heading">Увеличить количество заказов, звонков и продаж</h3>
+            <p class="results__item-text">Наша цель - преобразовывать посетителей сайта в клиентов. Это означает увеличение числа заказов, звонков и, соответственно, продаж.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="what-we-do">
+      <div class="container">
+        <h2 class="what-we-do__heading">Что мы делаем для привлечения Ваших новых клиентов</h2>
+        <ul class="what-we-do__list">
+          <li class="what-we-do__card">
+            <div class="what-we-do__card-cap" style="background-color: #C5C0FF;">
+              <img src="./img/what-we-do-img-1.svg" class="what-we-do__card-img" alt="" width="256" height="203">
+            </div>
+            <div class="what-we-do__card-body">
+              <h3 class="what-we-do__card-heading">Техническая перфекция</h3>
+              <p class="what-we-do__card-text">Мы начинаем с глубокой технической подготовки и настройки вашего веб-ресурса. Эффективная техническая основа — это ключ к успешному продвижению.</p>
+            </div>
+          </li>
+          <li class="what-we-do__card">
+            <div class="what-we-do__card-cap" style="background-color: #FFD3D3;">
+              <img src="./img/what-we-do-img-2.svg" class="what-we-do__card-img" alt="" width="256" height="203">
+            </div>
+            <div class="what-we-do__card-body">
+              <h3 class="what-we-do__card-heading">Анализ содержания</h3>
+              <p class="what-we-do__card-text">на этапе аудита мы изучаем контент и вносим необходимые корректировки, чтобы он был максимально привлекательным и информативным для вашей аудитории.</p>
+            </div>
+          </li>
+          <li class="what-we-do__card">
+            <div class="what-we-do__card-cap" style="background-color: #C1D6FF;">
+              <img src="./img/what-we-do-img-3.svg" class="what-we-do__card-img" alt="" width="256" height="203">
+            </div>
+            <div class="what-we-do__card-body">
+              <h3 class="what-we-do__card-heading">Создание положительной репутации</h3>
+              <p class="what-we-do__card-text">Мы активно работаем над улучшением репутации вашей компании в сети, что способствует привлечению новых клиентов и укреплению вашего бренда.</p>
+            </div>
+          </li>
+          <li class="what-we-do__card">
+            <div class="what-we-do__card-cap" style="background-color: #FFD8C1;">
+              <img src="./img/what-we-do-img-4.svg" class="what-we-do__card-img" alt="" width="256" height="203">
+            </div>
+            <div class="what-we-do__card-body">
+              <h3 class="what-we-do__card-heading">Семантическое ядро</h3>
+              <p class="what-we-do__card-text">Мы разрабатываем уникальное семантическое ядро, которое позволяет нам точно нацелиться на вашу целевую аудиторию и повысить эффективность продвижения.</p>
+            </div>
+          </li>
+          <li class="what-we-do__card">
+            <div class="what-we-do__card-cap" style="background-color: #FFF2D1;">
+              <img src="./img/what-we-do-img-5.svg" class="what-we-do__card-img" alt="" width="256" height="203">
+            </div>
+            <div class="what-we-do__card-body">
+              <h3 class="what-we-do__card-heading">Лучшие ссылки</h3>
+              <p class="what-we-do__card-text">Подбираем оптимальный ссылочный профиль, чтобы увеличить авторитет вашего сайта и повысить его позиции в поисковых системах.</p>
+            </div>
+          </li>
+          <li class="what-we-do__card">
+            <div class="what-we-do__card-cap" style="background-color: #FEDAFF;">
+              <img src="./img/what-we-do-img-6.svg" class="what-we-do__card-img" alt="" width="256" height="203">
+            </div>
+            <div class="what-we-do__card-body">
+              <h3 class="what-we-do__card-heading">Постоянное развитие</h3>
+              <p class="what-we-do__card-text">после завершения основных этапов продвижения, мы не останавливаемся. Продолжаем развивать вашу онлайн стратегию для долгосрочного успеха.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  
+    <section class="request">
+      <div class="container request__container">
+        <div class="request__img" style="background-image: url(./img/request-img.webp);"></div>
+        <form method="post" class="request__form">
+          <h2 class="request__heading">Сайт в <span class="request__top-word">ТОПе</span><br> или возврат денег</h2>
+          <p class="request__note">Оставьте заявку, после чего мы сможем собрать ключевые запросы, проверить позиции по ним, составить план продвижения и сделать вам предложение по оптимизации сайта.</p>
+          <div class="request__input-group">
+            <label for="request__phone" class="visually-hidden">Введите свой номер телефона:</label>
+            <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+            <label for="request__site" class="visually-hidden">Введите адрес своего сайта:</label>
+            <input type="url" id="request__site" class="input input_with-icon input_site request__input" name="site" placeholder="Адрес сайта" required>
+            <div class="checkbox">
+              <input type="checkbox" id="request__agreement" class="checkbox__input" checked>
+              <label for="request__agreement" class="checkbox__label request__agreement">Я соглашаюсь с Политикой конфиденциальности</label>
+            </div>         
+          </div>
+          <button type="submit" class="button request__button">Записаться</button>
+        </form>
+      </div>
+    </section>
+  
+    <section class="faq">
+      <div class="container">
+        <h2 class="faq__heading">Вопрос-ответ</h2>
+        <div class="faq__list">
+          <details class="faq__item">
+            <summary class="faq__question">Сколько ключевых слов вы соберете?</summary>
+            <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Не будет ли меняться цена?</summary>
+            <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Какой план действий?</summary>
+            <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Какие гарантии?</summary>
+            <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
+          </details>
+          <details class="faq__item">
+            <summary class="faq__question">Через сколько будет результат?</summary>
+            <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
+          </details>
+        </div>
+      </div>
+    </section>
+  
+    <section class="text">
+      <div class="container">
+        <div class="text__wrapper">
+          <div class="text__container">
+            <h2>Продвижение сайта в поисковых системах</h2>
+            <b>Уникальные подходы PR-Volga к привлечению новых клиентов:</b>
+            <ul>
+              <li>СЕО-Преимущество: Мы убеждены, что SEO — это не просто метод продвижения, а настоящее преимущество перед другими стратегиями. С SEO, результаты продержатся долгосрочно, принося высокую конверсию и релевантность.</li>
+              <li>Долгосрочные Результаты: Наша работа направлена на создание долгосрочных результатов. Мы строим устойчивую основу для вашего онлайн бизнеса.</li>
+              <li>Высокая Конверсия: Привлекаемые нами клиенты не просто посещают ваш сайт, они конвертируются в действительных клиентов. Наши стратегии направлены на увеличение конверсии.</li>
+              <li>Высокая Релевантность: Наши SEO-техники гарантируют высокую релевантность вашего контента, что помогает привлечь аудиторию, которая ищет именно ваши продукты или услуги.</li>
+              <li>Снижение Затрат: с помощью оптимизации рекламных кампаний и эффективных SEO-методов, мы снижаем ваши затраты на маркетинг.</li>
+              <li>Улучшение Пользовательского Опыта: Мы работаем над улучшением интерфейса и юзабилити вашего сайта, что способствует положительному пользовательскому опыту.</li>
+              <li>Отслеживание Статистики: Мы постоянно отслеживаем статистику и анализируем ее, чтобы наша стратегия всегда была актуальной и эффективной.</li>
             </ul>
-            <button class="button price__button">Начать</button>
-          </div>        
-        </li>
-        <li class="price__item">
-          <div class="price__item-header">
-            <h3 class="price__item-heading">Продвижение интернет-магазинов</h3>
-            <span class="price__cost">
-              <span class="price__cost-number">от 40 000 ₽</span>
-              /месяц
-            </span>
-          </div>
-          <div class="price__item-body">
-            <ul class="price__item-list">
-              <li class="price__item-list-item">Один пункт</li>
-              <li class="price__item-list-item">Преимущество два</li>
-              <li class="price__item-list-item">Поддержка</li>
-              <li class="price__item-list-item">Документация</li>
-              <li class="price__item-list-item">Пункт фичи тарифа  6</li>
+            <b>Почему заказать продвижение сайта в PR-Volga</b>
+            <p>Мы предоставляем комплексное продвижение сайтов, используя следующие методы:</p>
+            <ul>
+              <li>Определение ключевых страниц для ударного продвижения.</li>
+              <li>Техническая, внешняя и внутренняя оптимизация.</li>
+              <li>Анализ конкурентов и применение лучших практик.</li>
+              <li>Устранение технических ошибок и улучшение скорости загрузки.</li>
+              <li>Эффективное сбор и кластеризация ключевых слов.</li>
+              <li>Усовершенствование структуры сайта и мета-тегов.</li>
+              <li>Дизайн и юзабилити-оптимизация.</li>
+              <li>Мониторинг поведенческих факторов.</li>
+              <li>Формирование качественного ссылочного профиля.</li>
+              <li>Постоянное обновление позиций ключевых фраз.</li>
             </ul>
-            <button class="button price__button">Начать</button>
-          </div> 
-        </li>
-        <li class="price__item">
-          <div class="price__item-header">
-            <h3 class="price__item-heading">Первичная сео-оптимизация</h3>
-            <span class="price__cost">
-              <span class="price__cost-number">от 30 000 ₽</span>
-              /месяц
-            </span>
+            <p>Стоимость Услуг SEO-Продвижения Сайтов в Москве с PR-Volga</p>
+            <p>PR-Volga — это команда профессионалов, специализирующихся на SEO-продвижении сайтов в России. Мы понимаем, что цена играет важную роль при выборе партнера по продвижению, поэтому наши тарифы остаются конкурентоспособными и доступными для различных бизнесов.</p>
           </div>
-          <div class="price__item-body">
-            <ul class="price__item-list">
-              <li class="price__item-list-item">Один пункт</li>
-              <li class="price__item-list-item">Преимущество два</li>
-              <li class="price__item-list-item">Поддержка</li>
-              <li class="price__item-list-item">Документация</li>
-              <li class="price__item-list-item">Пункт фичи тарифа  6</li>
-            </ul>
-            <button class="button price__button">Начать</button> 
-          </div>
-        </li>
-        <li class="price__item">
-          <div class="price__item-header">
-            <h3 class="price__item-heading">СЕО аудит</h3>
-            <span class="price__cost">
-              <span class="price__cost-number">от 15 000 ₽</span>
-              /сессия
-            </span>
-          </div>
-          <div class="price__item-body">
-            <ul class="price__item-list">
-              <li class="price__item-list-item">Один пункт</li>
-              <li class="price__item-list-item">Преимущество два</li>
-              <li class="price__item-list-item">Поддержка</li>
-              <li class="price__item-list-item">Документация</li>
-              <li class="price__item-list-item">Пункт фичи тарифа  6</li>
-            </ul>
-            <button class="button price__button">Начать</button> 
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="tasks">
-    <div class="container">
-      <h2 class="tasks__heading">Что входит в стоимость комплексного продвижения сайта?</h2>
-      <ul class="tasks__list">
-        <li class="tasks__item tasks__item_accent" style="background-image: url(./img/tasks_img-1.svg);">
-          <h3 class="tasks__item-heading">
-            <span>Индексация в Яндекс и Google</span>
-            <span class="tasks__item-number">01</span>
-          </h3>
-          <p class="tasks__item-text">Гарантирует, что поисковые системы знают о существовании вашего сайта и могут его индексировать.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Проверка настройки кодов ответа сервера (200, 404, 50)</span>
-            <span class="tasks__item-number">02</span>
-          </h3>
-          <p class="tasks__item-text">Обеспечивает, что сервер правильно отвечает на запросы браузеров и поисковых систем.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Корректность robots.txt</span>
-            <span class="tasks__item-number">03</span>
-          </h3>
-          <p class="tasks__item-text">Убеждается, что правила доступа для поисковых роботов настроены правильно.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>HTML код сайта</span>
-            <span class="tasks__item-number">04</span>
-          </h3>
-          <p class="tasks__item-text">Гарантирует, что  HTML-код соответствует стандартам и не содержит ошибок, что влияет на отображение и индексацию страниц.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Проверка на дубликаты страниц, мета-тегов</span>
-            <span class="tasks__item-number">05</span>
-          </h3>
-          <p class="tasks__item-text">Исключает дубликаты контента и мета-тегов, что может негативно сказаться на рейтинге сайта.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Проверка контента сайта  на спам</span>
-            <span class="tasks__item-number">06</span>
-          </h3>
-          <p class="tasks__item-text">Исключает наличие нежелательного контента, который может негативно повлиять на репутацию сайта.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Корректность составления ЧПУ</span>
-            <span class="tasks__item-number">07</span>
-          </h3>
-          <p class="tasks__item-text">Человеко-понятные URL-адреса способствуют лучшей индексации и пониманию контента поисковыми системами.</p>
-        </li>
-        <li class="tasks__item tasks__item_accent" style="background-image: url(./img/tasks_img-2.svg);">
-          <h3 class="tasks__item-heading">
-            <span>Проведение юзабилити аудита</span>
-            <span class="tasks__item-number">10</span>
-          </h3>
-          <p class="tasks__item-text">Анализирует удобство использования сайта для пользователей, что может 
-            повысить его конверсию.</p>
-        </li>
-        <li class="tasks__item tasks__item_col-1">
-          <h3 class="tasks__item-heading">
-            <span>Проверка структуры сайта</span>
-            <span class="tasks__item-number">08</span>
-          </h3>
-          <p class="tasks__item-text">Человеко-понятные URL-адреса способствуют лучшей индексации и пониманию контента поисковыми системами.Анализирует, как устроена структура сайта, чтобы обеспечить удобство навигации для пользователей и роботов поисковых систем.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Проверка контента на уникальность текста</span>
-            <span class="tasks__item-number">09</span>
-          </h3>
-          <p class="tasks__item-text">Обеспечивает, что контент уникален и не дублируется с другими ресурсами.</p>
-        </li>
-        <li class="tasks__item tasks__item_accent" style="background-image: url(./img/tasks_img-3.svg);">
-          <p class="tasks__item-text">Комплексное продвижение сайта включает в себя все эти этапы, обеспечивая всестороннюю оптимизацию и поддержку веб-ресурса для достижения высоких позиций в поисковых системах и привлечения большей аудитории.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Проверка корректности оформления страницы контактов</span>
-            <span class="tasks__item-number">11</span>
-          </h3>
-          <p class="tasks__item-text">Убеждается, что страница контактов является информативной и легко доступной для пользователей.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Проверка работоспособности HTML форм на сайте</span>
-            <span class="tasks__item-number">12</span>
-          </h3>
-          <p class="tasks__item-text">Убеждается, что формы на сайте функционируют корректно, что важно для взаимодействия с пользователями.</p>
-        </li>
-        <li class="tasks__item">
-          <h3 class="tasks__item-heading">
-            <span>Анализ внешних ссылок</span>
-            <span class="tasks__item-number">13</span>
-          </h3>
-          <p class="tasks__item-text">Оценивает качество внешних ссылок на сайт и их влияние на позиции в поисковых системах</p>
-        </li>
-        <li class="tasks__button-wrapper">
-          <button class="button tasks__button">Начать сотрудничество</button>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="benefits">
-    <div class="container benefits__container">
-      <div class="benefits__left">
-        <div class="benefits__card benefits__card_heading">
-          <h2 class="benefits__heading">Что Вы получите, обратившись в PR_VOLGA</h2>
-        </div>
-        <div class="benefits__card benefits__card_accent" style="background-image: url(./img/benefits-img.svg);">
-          <h3 class="benefits__card-heading benefits__card-heading_big">Разработка стратегии</h3>
-          <p class="benefits__card-text benefits__card-text_big">Каждый проект рассматривается уникально, и мы разрабатываем индивидуальные стратегии, учитывая ваши конкретные цели и потребности.</p>
-        </div>
-        <div class="benefits__card benefits__card_icon-top" style="background-image: url(./img/benefits-icon-1.svg);">
-          <h3 class="benefits__card-heading">Достижение целей</h3>
-          <p class="benefits__card-text">Мы ориентированы на результат. При сотрудничестве с нами вы можете быть уверены, что ваши цели будут достигнуты, и ваш проект станет более успешным.</p>
-        </div>
-        <div class="benefits__card benefits__card_icon-top" style="background-image: url(./img/benefits-icon-2.svg);">
-          <h3 class="benefits__card-heading">Гарантия возврата средств</h3>
-          <p class="benefits__card-text">Мы уверены в качестве наших услуг, поэтому предоставляем гарантию возврата средств в случае неудачи.</p>
         </div>
       </div>
-      <div class="benefits__right">
-        <div class="benefits__card benefits__card_icon-left benefits__card_2rows" style="background-image: url(./img/benefits-icon-3.svg);">
-          <h3 class="benefits__card-heading">Долгосрочное партнерство</h3>
-          <p class="benefits__card-text">Мы стремимся к долгосрочным и взаимовыгодным отношениям, обеспечивая тесное сотрудничество и постоянную поддержку.</p>
-        </div>
-        <div class="benefits__card benefits__card_icon-left benefits__card_2rows" style="background-image: url(./img/benefits-icon-4.svg);">
-          <h3 class="benefits__card-heading">Детализированная отчётность</h3>
-          <p class="benefits__card-text">Вы получите подробные отчеты об эффективности продвижения, чтобы всегда быть в курсе результатов наших действий.</p>
-        </div>  
-        <div class="benefits__card benefits__card_icon-left" style="background-image: url(./img/benefits-icon-5.svg);">
-          <h3 class="benefits__card-heading">Оптимизация затрат</h3>
-          <p class="benefits__card-text">Мы стремимся максимально оптимизировать ваши расходы на продвижение, обеспечивая при этом высокую эффективность и видимость вашего проекта.</p>
-        </div>  
-        <div class="benefits__card benefits__card_icon-top" style="background-image: url(./img/benefits-icon-6.svg);">
-          <h3 class="benefits__card-heading">Успешная реализация задач</h3>
-          <p class="benefits__card-text">Наша команда экспертов обеспечивает эффективную и успешную реализацию поставленных перед нами задач.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="results" style="background-image: url(./img/results-bg.svg);">
-    <div class="container">
-      <div class="results__header">
-        <h2 class="results__heading">Результаты SEO продвижения от PR_VOLGA</h2>
-        <p class="results__note">С SEO продвижением от PR-Volga вы можете быть уверены в том, что ваш бизнес будет расти и развиваться, привлекая больше клиентов и укрепляя свой бренд на рынке.</p>
-      </div>
-      <ul class="results__list">
-        <li class="results__item">
-          <h3 class="results__item-heading">Увеличить органический трафик</h3>
-          <p class="results__item-text">Мы оптимизируем ваш веб-ресурс так, чтобы он занимал более высокие позиции в поисковых системах, что приводит к увеличению органического трафика.</p>
-        </li>
-        <li class="results__item">
-          <h3 class="results__item-heading">Расширить охват целевой аудитории</h3>
-          <p class="results__item-text">Мы используем стратегии, которые помогут привлечь больше потенциальных клиентов 
-            и увеличить охват вашей целевой аудитории.</p>
-        </li>
-        <li class="results__item">
-          <h3 class="results__item-heading">Укрепить имидж и повысить его узнаваемость</h3>
-          <p class="results__item-text">Наша работа поможет создать позитивное восприятие вашего бренда и сделает его более узнаваемым среди целевой аудитории</p>
-        </li>
-        <li class="results__item">
-          <h3 class="results__item-heading">Увеличить количество заказов, звонков и продаж</h3>
-          <p class="results__item-text">Наша цель - преобразовывать посетителей сайта в клиентов. Это означает увеличение числа заказов, звонков и, соответственно, продаж.</p>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="what-we-do">
-    <div class="container">
-      <h2 class="what-we-do__heading">Что мы делаем для привлечения Ваших новых клиентов</h2>
-      <ul class="what-we-do__list">
-        <li class="what-we-do__card">
-          <div class="what-we-do__card-cap" style="background-color: #C5C0FF;">
-            <img src="./img/what-we-do-img-1.svg" class="what-we-do__card-img" alt="" width="256" height="203">
-          </div>
-          <div class="what-we-do__card-body">
-            <h3 class="what-we-do__card-heading">Техническая перфекция</h3>
-            <p class="what-we-do__card-text">Мы начинаем с глубокой технической подготовки и настройки вашего веб-ресурса. Эффективная техническая основа — это ключ к успешному продвижению.</p>
-          </div>
-        </li>
-        <li class="what-we-do__card">
-          <div class="what-we-do__card-cap" style="background-color: #FFD3D3;">
-            <img src="./img/what-we-do-img-2.svg" class="what-we-do__card-img" alt="" width="256" height="203">
-          </div>
-          <div class="what-we-do__card-body">
-            <h3 class="what-we-do__card-heading">Анализ содержания</h3>
-            <p class="what-we-do__card-text">на этапе аудита мы изучаем контент и вносим необходимые корректировки, чтобы он был максимально привлекательным и информативным для вашей аудитории.</p>
-          </div>
-        </li>
-        <li class="what-we-do__card">
-          <div class="what-we-do__card-cap" style="background-color: #C1D6FF;">
-            <img src="./img/what-we-do-img-3.svg" class="what-we-do__card-img" alt="" width="256" height="203">
-          </div>
-          <div class="what-we-do__card-body">
-            <h3 class="what-we-do__card-heading">Создание положительной репутации</h3>
-            <p class="what-we-do__card-text">Мы активно работаем над улучшением репутации вашей компании в сети, что способствует привлечению новых клиентов и укреплению вашего бренда.</p>
-          </div>
-        </li>
-        <li class="what-we-do__card">
-          <div class="what-we-do__card-cap" style="background-color: #FFD8C1;">
-            <img src="./img/what-we-do-img-4.svg" class="what-we-do__card-img" alt="" width="256" height="203">
-          </div>
-          <div class="what-we-do__card-body">
-            <h3 class="what-we-do__card-heading">Семантическое ядро</h3>
-            <p class="what-we-do__card-text">Мы разрабатываем уникальное семантическое ядро, которое позволяет нам точно нацелиться на вашу целевую аудиторию и повысить эффективность продвижения.</p>
-          </div>
-        </li>
-        <li class="what-we-do__card">
-          <div class="what-we-do__card-cap" style="background-color: #FFF2D1;">
-            <img src="./img/what-we-do-img-5.svg" class="what-we-do__card-img" alt="" width="256" height="203">
-          </div>
-          <div class="what-we-do__card-body">
-            <h3 class="what-we-do__card-heading">Лучшие ссылки</h3>
-            <p class="what-we-do__card-text">Подбираем оптимальный ссылочный профиль, чтобы увеличить авторитет вашего сайта и повысить его позиции в поисковых системах.</p>
-          </div>
-        </li>
-        <li class="what-we-do__card">
-          <div class="what-we-do__card-cap" style="background-color: #FEDAFF;">
-            <img src="./img/what-we-do-img-6.svg" class="what-we-do__card-img" alt="" width="256" height="203">
-          </div>
-          <div class="what-we-do__card-body">
-            <h3 class="what-we-do__card-heading">Постоянное развитие</h3>
-            <p class="what-we-do__card-text">после завершения основных этапов продвижения, мы не останавливаемся. Продолжаем развивать вашу онлайн стратегию для долгосрочного успеха.</p>
-          </div>
-        </li>
-      </ul>
-    </div>
-  </section>
-
-  <section class="request">
-    <div class="container request__container">
-      <div class="request__img" style="background-image: url(./img/request-img.webp);"></div>
-      <form action="" method="post" class="request__form">
-        <h2 class="request__heading">Сайт в <span class="request__top-word">ТОПе</span><br> или возврат денег</h2>
-        <p class="request__note">Оставьте заявку, после чего мы сможем собрать ключевые запросы, проверить позиции по ним, составить план продвижения и сделать вам предложение по оптимизации сайта.</p>
-        <div class="request__input-group">
-          <label for="request__phone" class="visually-hidden">Введите свой номер телефона:</label>
-          <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" placeholder="+7 (___) ___-__-__" required>
-          <label for="mrequest__site" class="visually-hidden">Введите адрес своего сайта:</label>
-          <input type="url" id="request__site" class="input input_with-icon input_site request__input" name="site" placeholder="Адрес сайта" required>
-          <div class="checkbox">
-            <input type="checkbox" id="request__agreement" class="checkbox__input" checked>
-            <label for="request__agreement" class="checkbox__label request__agreement">Я соглашаюсь с Политикой конфиденциальности</label>
-          </div>         
-        </div>
-        <button type="submit" class="button request__button">Записаться</button>
-      </form>
-    </div>
-  </section>
-
-  <section class="faq">
-    <div class="container">
-      <h2 class="faq__heading">Вопрос-ответ</h2>
-      <div class="faq__list">
-        <details class="faq__item">
-          <summary class="faq__question">Сколько ключевых слов вы соберете?</summary>
-          <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
-        </details>
-        <details class="faq__item">
-          <summary class="faq__question">Не будет ли меняться цена?</summary>
-          <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
-        </details>
-        <details class="faq__item">
-          <summary class="faq__question">Какой план действий?</summary>
-          <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
-        </details>
-        <details class="faq__item">
-          <summary class="faq__question">Какие гарантии?</summary>
-          <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
-        </details>
-        <details class="faq__item">
-          <summary class="faq__question">Через сколько будет результат?</summary>
-          <p class="faq__answer">У нас нет ограничения на кол-во продвигаемых слов, мы стараемся собрать максимально возможное количество запросов, чтобы полностью покрыть тематику сайта</p>
-        </details>
-      </div>
-    </div>
-  </section>
-
-  <section class="text">
-    <div class="container">
-      <div class="text__wrapper">
-        <div class="text__container">
-          <h2>Продвижение сайта в поисковых системах</h2>
-          <b>Уникальные подходы PR-Volga к привлечению новых клиентов:</b>
-          <ul>
-            <li>СЕО-Преимущество: Мы убеждены, что SEO — это не просто метод продвижения, а настоящее преимущество перед другими стратегиями. С SEO, результаты продержатся долгосрочно, принося высокую конверсию и релевантность.</li>
-            <li>Долгосрочные Результаты: Наша работа направлена на создание долгосрочных результатов. Мы строим устойчивую основу для вашего онлайн бизнеса.</li>
-            <li>Высокая Конверсия: Привлекаемые нами клиенты не просто посещают ваш сайт, они конвертируются в действительных клиентов. Наши стратегии направлены на увеличение конверсии.</li>
-            <li>Высокая Релевантность: Наши SEO-техники гарантируют высокую релевантность вашего контента, что помогает привлечь аудиторию, которая ищет именно ваши продукты или услуги.</li>
-            <li>Снижение Затрат: с помощью оптимизации рекламных кампаний и эффективных SEO-методов, мы снижаем ваши затраты на маркетинг.</li>
-            <li>Улучшение Пользовательского Опыта: Мы работаем над улучшением интерфейса и юзабилити вашего сайта, что способствует положительному пользовательскому опыту.</li>
-            <li>Отслеживание Статистики: Мы постоянно отслеживаем статистику и анализируем ее, чтобы наша стратегия всегда была актуальной и эффективной.</li>
-          </ul>
-          <b>Почему заказать продвижение сайта в PR-Volga</b>
-          <p>Мы предоставляем комплексное продвижение сайтов, используя следующие методы:</p>
-          <ul>
-            <li>Определение ключевых страниц для ударного продвижения.</li>
-            <li>Техническая, внешняя и внутренняя оптимизация.</li>
-            <li>Анализ конкурентов и применение лучших практик.</li>
-            <li>Устранение технических ошибок и улучшение скорости загрузки.</li>
-            <li>Эффективное сбор и кластеризация ключевых слов.</li>
-            <li>Усовершенствование структуры сайта и мета-тегов.</li>
-            <li>Дизайн и юзабилити-оптимизация.</li>
-            <li>Мониторинг поведенческих факторов.</li>
-            <li>Формирование качественного ссылочного профиля.</li>
-            <li>Постоянное обновление позиций ключевых фраз.</li>
-          </ul>
-          <p>Стоимость Услуг SEO-Продвижения Сайтов в Москве с PR-Volga</p>
-          <p>PR-Volga — это команда профессионалов, специализирующихся на SEO-продвижении сайтов в России. Мы понимаем, что цена играет важную роль при выборе партнера по продвижению, поэтому наши тарифы остаются конкурентоспособными и доступными для различных бизнесов.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+  </main>
 
   <footer class="footer">
     <div class="container footer__container">
