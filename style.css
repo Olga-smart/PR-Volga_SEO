@@ -587,6 +587,12 @@ a {
   padding-top: 7.9rem;
   padding-bottom: 2rem;                  
 }
+/* Setting a static background for Firefox due to poor support */
+@-moz-document url-prefix() {
+  .main-screen {
+    background-image: url(./img/main-screen-bg-static.webp);                
+  }
+}
 .main-screen__container {
   display: -webkit-box;
   display: -ms-flexbox;
