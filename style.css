@@ -109,6 +109,7 @@
 :root {
   --accent-color:#DA2F3E;
   --main-text-color: #212121;
+  --button-hover-color: #c32230;
 }
 *,
 *::before,
@@ -172,6 +173,18 @@ a {
   line-height: 1;
   border: none;
   cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.button:hover {
+  background-color: var(--button-hover-color);
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;        
 }
 .checkbox__label {
   display: grid;
