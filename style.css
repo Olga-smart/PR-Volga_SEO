@@ -565,17 +565,6 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 42.5rem;
-  -webkit-animation-name: main-screen-bg-animation;
-          animation-name: main-screen-bg-animation;
-  -webkit-animation-duration: 3s;
-          animation-duration: 3s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
-  will-change: background-image;
   padding-top: 7.9rem;
   padding-bottom: 2rem;                  
 }
@@ -763,7 +752,7 @@ a {
 }
 @media (max-width: 767px) {
   .main-screen {
-    background-image: url(./img/main-screen-bg-static.svg);
+    background-image: url(./img/main-screen-bg-static.webp);
   }
   .main-screen__container {
     -webkit-box-orient: vertical;
