@@ -14,7 +14,7 @@
         <span class="visually-hidden">Меню</span>
       </button>
       <div class="header__logo">
-        <a href="/" class="logo">
+        <a href="#" class="logo">
           <img src="./img/logo.svg" alt="Логотип PR-Volga" class="logo__img" width="140" height="42">
           <span class="visually-hidden">На главную</span>
         </a>
@@ -61,7 +61,7 @@
             и определим позиции</p>
             <div class="main-screen__form-input-group">
               <label for="main-screen__phone" class="visually-hidden">Введите свой номер телефона:</label>
-              <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+              <input type="tel" id="main-screen__phone" class="input input_with-icon input_phone js-input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
               <label for="main-screen__site" class="visually-hidden">Введите адрес своего сайта:</label>
               <input type="url" id="main-screen__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
               <div class="checkbox">
@@ -228,7 +228,7 @@
         </div>
         <form method="post" class="audit__form">
           <label for="audit__phone" class="visually-hidden">Введите свой номер телефона:</label>
-          <input type="tel" id="audit__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
+          <input type="tel" id="audit__phone" class="input input_with-icon input_phone js-input_phone" name="phone" placeholder="+7 (___) ___-__-__" required>
           <label for="audit__site" class="visually-hidden">Введите адрес своего сайта:</label>
           <input type="url" id="audit__site" class="input input_with-icon input_site" name="site" placeholder="Адрес сайта" required>
           <span class="audit__note">Пришлём аудит в WhatsApp</span>
@@ -405,11 +405,11 @@
               <p class="calculator__question">Оставьте заявку прямо сейчас и получите экспертную сессию от наших специалистов в подарок!</p>
               <div class="calculator__step-5-content">
                 <label for="calculator__name" class="visually-hidden">Введите Ваше имя:</label>
-                <input type="tel" id="calculator__name" class="input input_with-icon input_name" name="name" placeholder="Ваше имя">
+                <input type="text" id="calculator__name" class="input input_with-icon input_name" name="name" placeholder="Ваше имя">
                 <label for="calculator__mail" class="visually-hidden">Введите свой email:</label>
-                <input type="tel" id="calculator__mail" class="input input_with-icon input_mail" name="mail" placeholder="Email">
+                <input type="email" id="calculator__mail" class="input input_with-icon input_mail" name="mail" placeholder="Email">
                 <label for="calculator__phone" class="visually-hidden">Введите свой номер телефона:</label>
-                <input type="tel" id="calculator__phone" class="input input_with-icon input_phone" name="phone" placeholder="+7 (___) ___-__-__">
+                <input type="tel" id="calculator__phone" class="input input_with-icon input_phone js-input_phone" name="phone" placeholder="+7 (___) ___-__-__">
                 <div class="calculator__step-5-indicator-and-agreement">
                   <div class="calculator__indicator">
                     <span class="calculator__indicator-step calculator__indicator-step_filled"></span>
@@ -766,7 +766,7 @@
           <p class="request__note">Оставьте заявку, после чего мы сможем собрать ключевые запросы, проверить позиции по ним, составить план продвижения и сделать вам предложение по оптимизации сайта.</p>
           <div class="request__input-group">
             <label for="request__phone" class="visually-hidden">Введите свой номер телефона:</label>
-            <input type="tel" id="request__phone" class="input input_with-icon input_phone request__input" name="phone" placeholder="+7 (___) ___-__-__" required>
+            <input type="tel" id="request__phone" class="input input_with-icon input_phone js-input_phone request__input" name="phone" placeholder="+7 (___) ___-__-__" required>
             <label for="request__site" class="visually-hidden">Введите адрес своего сайта:</label>
             <input type="url" id="request__site" class="input input_with-icon input_site request__input" name="site" placeholder="Адрес сайта" required>
             <div class="checkbox">
@@ -849,7 +849,7 @@
     <div class="container footer__container">
       <div class="footer__left">
         <div class="footer__logo">
-          <a href="/" class="logo">
+          <a href="#" class="logo">
             <img src="./img/logo-white.svg" alt="Логотип PR-Volga" class="logo__img" width="140" height="42">
             <span class="visually-hidden">На главную</span>
           </a>
@@ -920,6 +920,7 @@
     </div>
   </footer>
 
+  <script src="./libs/imask/imask.js"></script>
   <script src="./libs/glide/glide.min.js"></script>
   <script src="./main.js"></script>
 </body>

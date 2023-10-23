@@ -111,3 +111,12 @@ const calculator = document.querySelector('.js-calculator');
 if (calculator) {
   new Calculator(calculator);
 }
+
+const telInputs = document.querySelectorAll('.js-input_phone');
+if (telInputs) {
+  telInputs.forEach((input) => {
+    IMask(input, {
+      mask: '+{7}(000)000-00-00'
+    });
+  });
+}
