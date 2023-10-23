@@ -498,10 +498,6 @@ a {
   }
 }
 @media (max-width: 1440px) {
-  .header__city,
-  .header__menu {
-    font-size: 0.7rem;
-  }
   .header__menu {
     -webkit-column-gap: 1.1rem;
        -moz-column-gap: 1.1rem;
@@ -509,12 +505,6 @@ a {
   }
 }
 @media (max-width: 1199px) {
-  .header__city,
-  .header__menu {
-    font-size: 0.7rem;
-  }
-}
-@media (max-width: 991px) {
   .header__burger {
     display: block;
   }
@@ -525,6 +515,7 @@ a {
     right: 0;
     font-size: 1rem;
     opacity: 0;
+    pointer-events: none;
   }
   .header__menu_open {
     top: 100%;
@@ -535,6 +526,7 @@ a {
     background-color: #fff;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    pointer-events: unset;
   }
   .header__cart {
     margin-left: auto;
