@@ -2126,7 +2126,7 @@ a {
 }
 .benefits__card {
   border-radius: 1rem;
-  background-color: rgba(255, 255, 255, 0.30);
+  background-color: rgba(255, 255, 255, 0.70);
   -webkit-backdrop-filter: blur(1.75rem);
           backdrop-filter: blur(1.75rem);
   padding: 2rem;        
@@ -2140,6 +2140,7 @@ a {
 }
 .benefits__card_heading {
   grid-column: span 2;
+  background-color: rgba(255, 255, 255, 0.30);
 }
 .benefits__card-heading {
   font-weight: 700;
