@@ -2243,7 +2243,7 @@ a {
 .results {
   padding-top: 6.5rem;
   padding-bottom: 7.5rem;
-  background-position: center right;
+  background-position: top 20.25rem right;
   background-repeat: no-repeat;
   background-size: 35%;
 }
@@ -2293,6 +2293,9 @@ a {
 
 /* Media Results Section */
 @media (max-width: 1440px) {
+  .results {
+    background-position: top 15.25rem right;
+  }
   .results__header {
     margin-bottom: 3rem;
   }
